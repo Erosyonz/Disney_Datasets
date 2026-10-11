@@ -1,0 +1,11 @@
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# VS Code Interactive Window history (optional)
+.vscode/
+.history/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
