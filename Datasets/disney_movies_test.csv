@@ -1,0 +1,117 @@
+movie_title,release_date,genre,mpaa_rating,total_gross,inflation_adjusted_gross
+Pinocchio,1940-02-09,"['animation', 'comedy', 'family', 'fantasy']",G,84300000,2188229052
+101 Dalmatians,1961-01-25,"['comedy', 'crime', 'family']",G,153000000,1362870985
+The Jungle Book,1967-10-18,"['animation', 'fantasy', 'comedy', 'family']",Not Rated,141843000,789612346
+Blackbeard's Ghost,1968-02-08,"['fantasy', 'comedy', 'family']",,21540050,138612686
+The Many Adventures of Winnie the Pooh,1977-03-11,"['animation', 'comedy', 'family']",,0,0
+The Rescuers,1977-06-22,"['fantasy', 'family', 'animation', 'comedy']",,48775599,159743914
+Amy,1981-03-20,"['drama', 'family']",,0,0
+Tex,1982-11-19,Drama,,7199408,20643199
+Something Wicked This Way Comes,1983-04-29,Horror,,5656087,15136765
+Return to Oz,1985-06-21,"['fantasy', 'family', 'horror']",,10618813,25215934
+Ruthless People,1986-06-27,Comedy,R,71624879,162748712
+Outrageous Fortune,1987-01-30,Comedy,R,52864741,113976921
+Can't Buy Me Love,1987-08-14,Romantic Comedy,,31623833,68181300
+Good Morning Vietnam,1987-12-23,Comedy,R,123922370,254414837
+Shoot to Kill,1988-02-12,Action,,29300000,60097074
+Return to Snowy River,1988-04-15,Adventure,PG,13687027,28073384
+Ernest Saves Christmas,1988-11-11,"['comedy', 'family', 'fantasy']",PG,28202109,57845202
+Cheetah,1989-08-18,"['drama', 'family']",,7882250,16653473
+Pretty Woman,1990-03-23,Romantic Comedy,R,178406268,356389765
+Dick Tracy,1990-06-15,Action,PG,103738726,207231621
+3 Men and a Little Lady,1990-11-21,"['comedy', 'drama', 'family', 'romance']",PG,71609321,143108869
+Green Card,1990-12-25,Romantic Comedy,PG-13,29804169,59679131
+Haakon Haakonsen,1991-03-01,Adventure,PG,15024232,30084149
+One Good Cop,1991-05-03,Action,R,11276846,22580472
+What About Bob?,1991-05-17,Comedy,PG,63710000,127571325
+Newsies,1992-04-08,"['drama', 'family', 'history']",PG,2706352,5497481
+A Gun in Betty Lou's Handbag,1992-08-21,,PG-13,3591460,7295423
+Sarafina!,1992-09-18,Drama,PG-13,7306242,14841352
+Consenting Adults,1992-10-16,Drama,R,21591728,43859823
+Aladdin,1992-11-11,"['fantasy', 'romance', 'animation', 'comedy', 'family']",G,217350219,441969178
+Alive,1993-01-15,Adventure,R,36299670,73914543
+Father Hood,1993-08-27,,PG-13,3268203,6654819
+Cool Runnings,1993-10-01,"['comedy', 'history', 'sport', 'family', 'european']",PG,68856263,140392731
+The Nightmare Before Christmas,1993-10-13,"['fantasy', 'family', 'animation']",PG,50408318,100026637
+The Three Musketeers,1993-11-12,"['comedy', 'european']",PG,53661805,109310377
+Cabin Boy,1994-01-07,Comedy,PG-13,3469493,7168577
+Quiz Show,1994-09-14,Drama,PG-13,24787282,50840394
+Ed Wood,1994-09-30,Comedy,R,5828466,12042634
+Squanto: A Warrior's Tale,1994-10-28,"['action', 'drama', 'family']",PG,3319344,6858345
+Man of the House,1995-03-03,"['action', 'family', 'comedy']",PG,40029009,77573459
+Roommates,1995-03-03,Comedy,PG,12076989,23404369
+Funny Bones,1995-03-31,Comedy,R,529135,1025425
+While You Were Sleeping,1995-04-21,"['romance', 'comedy', 'drama']",PG,81057016,157082900
+Operation Dumbo Drop,1995-07-28,"['comedy', 'drama', 'family', 'war', 'action']",PG,24670346,47809421
+A Kid in King Arthur's Court,1995-08-11,"['comedy', 'romance', 'family', 'fantasy']",PG,13406717,25981285
+The Tie That Binds,1995-09-08,Thriller/Suspense,R,5762795,11167895
+Unstrung Heroes,1995-09-15,Drama,PG,7929000,15365850
+Before and After,1996-02-23,Drama,PG-13,8642118,16482589
+Celtic Pride,1996-04-19,Comedy,PG-13,9240378,17623615
+The Rock,1996-06-07,Action,R,134069511,255702705
+Phenomenon,1996-07-05,Drama,PG,104636382,199559799
+The War at Home,1996-11-20,,R,34368,65543
+101 Dalmatians,1996-11-27,"['comedy', 'crime', 'family']",G,136189294,258728898
+The Sixth Man,1997-03-28,Comedy,PG-13,14765099,27117599
+Nothing To Lose,1997-07-18,Comedy,R,44480039,81692095
+G.I. Jane,1997-08-22,Drama,R,48169156,88467531
+A Thousand Acres,1997-09-19,Drama,R,7928412,14561324
+Playing God,1997-10-17,Thriller/Suspense,R,4166918,7652965
+Mr. Magoo,1997-12-25,"['comedy', 'family']",PG,21437192,39145784
+Krippendorf's Tribe,1998-02-27,Comedy,PG-13,7571115,13608633
+The Parent Trap,1998-07-29,"['comedy', 'romance', 'family']",PG,66308518,119185667
+Beloved,1998-10-16,Drama,R,22852487,41062682
+A Bug's Life,1998-11-20,"['comedy', 'animation', 'family', 'fantasy']",G,162798565,288981698
+My Favorite Martian,1999-02-12,"['drama', 'comedy', 'family', 'scifi']",PG,36850101,61150849
+Inspector Gadget,1999-07-23,"['comedy', 'crime', 'family', 'scifi', 'action']",PG,97387965,161610341
+"Mystery, Alaska",1999-10-01,Comedy,R,8891623,14755189
+The Insider,1999-11-05,Drama,R,28965197,47794214
+Keeping the Faith,2000-04-14,Romantic Comedy,PG-13,37036404,57925202
+Dinosaur,2000-05-19,"['animation', 'drama', 'family', 'fantasy', 'thriller', 'comedy']",PG,137748063,215438985
+Fantasia 2000 (Theatrical Release),2000-06-16,Musical,G,9103630,14238144
+102 Dalmatians,2000-11-22,"['comedy', 'family']",G,66941559,104055039
+"O Brother, Where Art Thou?",2000-12-22,Comedy,PG-13,45506619,67922002
+Pearl Harbor,2001-05-25,Action,PG-13,198539855,295705112
+Atlantis: The Lost Empire,2001-06-08,"['scifi', 'family', 'fantasy', 'animation', 'action']",PG,84052762,125188122
+crazy/beautiful,2001-06-29,Drama,PG-13,16929123,25214223
+The Country Bears,2002-07-26,"['comedy', 'documentation', 'family', 'music']",G,16988996,24650121
+The Santa Clause 2,2002-11-01,"['comedy', 'fantasy', 'family']",G,139225854,201959095
+The Jungle Book 2,2003-02-14,"['animation', 'comedy', 'family', 'fantasy']",G,47901582,66966883
+Bringing Down the House,2003-03-07,Comedy,PG-13,132675402,185481530
+Pirates of the Caribbean: The Curse o…,2003-07-09,Adventure,PG-13,305411224,426967926
+Open Range,2003-08-15,Western,R,58331254,81547672
+Under the Tuscan Sun,2003-09-26,Comedy,PG-13,43601508,60944053
+Brother Bear,2003-10-24,"['animation', 'fantasy', 'comedy', 'drama', 'family']",G,85336277,119218333
+The Alamo,2004-04-09,Western,PG-13,22406362,30416359
+The Village,2004-07-30,Thriller/Suspense,PG-13,114197520,155021748
+The Last Shot,2004-09-24,Comedy,R,463730,629502
+The Life Aquatic with Steve Zissou,2004-12-10,Comedy,R,24006726,32198655
+Ice Princess,2005-03-18,"['drama', 'comedy', 'family', 'sport']",G,24381334,32064685
+A Lot Like Love,2005-04-22,Comedy,PG-13,21835784,28716947
+Shopgirl,2005-10-21,Drama,R,10284523,13519621
+The Shaggy Dog,2006-03-10,"['comedy', 'fantasy', 'family']",PG,61123569,78667428
+The Lookout,2007-03-30,Drama,R,4600585,5637048
+The Hoax,2007-04-06,Drama,R,7164995,8779196
+Ratatouille,2007-06-29,"['fantasy', 'animation', 'comedy', 'family', 'drama']",G,206445654,252955933
+Underdog,2007-08-03,"['fantasy', 'scifi', 'action', 'comedy', 'family']",PG,43760605,53619462
+Dan in Real Life,2007-10-20,"['romance', 'comedy', 'drama']",PG-13,47642963,58350234
+College Road Trip,2008-03-07,"['comedy', 'drama', 'family']",G,45610425,53550960
+Miracle at St. Anna,2008-09-26,Drama,R,7916887,9295171
+High School Musical 3: Senior Year,2008-10-24,"['romance', 'drama', 'family', 'music', 'comedy']",G,90559416,106308538
+Bolt,2008-11-21,"['animation', 'comedy', 'crime', 'drama', 'family', 'scifi', 'fantasy']",PG,114053759,133702498
+Bedtime Stories,2008-12-25,"['fantasy', 'romance', 'scifi', 'comedy', 'family']",PG,110101975,128039679
+G-Force,2009-07-24,"['comedy', 'family', 'fantasy', 'scifi', 'animation', 'action']",PG,119436770,134246932
+The Princess and the Frog,2009-11-25,"['romance', 'family', 'fantasy', 'animation', 'comedy']",G,104400899,116316457
+Old Dogs,2009-11-25,Comedy,PG,49492060,55503929
+Prince of Persia: Sands of Time,2010-05-28,Action,PG-13,90759676,96971361
+Secretariat,2010-10-08,"['drama', 'documentation', 'family', 'history', 'sport']",PG,59699513,63781920
+I am Number Four,2011-02-18,Adventure,PG-13,55100437,58574607
+African Cats,2011-04-22,"['documentation', 'action']",G,15428747,16401551
+Pirates of the Caribbean: On Stranger…,2011-05-20,Adventure,PG-13,241063875,256263359
+People Like Us,2012-06-29,Drama,PG-13,12431792,13165822
+Iron Man 3,2013-05-03,"['action', 'scifi']",PG-13,408992272,424084233
+Frozen,2013-11-22,"['fantasy', 'comedy', 'family', 'animation']",PG,400738009,414997174
+Bridge of Spies,2015-10-16,Thriller/Suspense,PG-13,72313754,72313754
+Star Wars Ep. VII: The Force Awakens,2015-12-18,Adventure,PG-13,936662225,936662225
+Pete’s Dragon,2016-08-12,Adventure,PG,76233151,76233151
+Doctor Strange,2016-11-04,"['fantasy', 'action', 'scifi']",PG-13,232532923,232532923
