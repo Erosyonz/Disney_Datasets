@@ -1,574 +1,352 @@
-Movie,Release date,Release year,Rating,Genres,Budget ($ millions),Runtime (minutes),Box office ($ millions),Box office adjusted for inflation ($ millions),IMDb score (out of 10),Studio,Data split,Used in the model?
-Snow White and the Seven Dwarfs,1937-12-21,1937,G,"Fantasy, Family, Romance, Animation, Thriller, Drama",,,184.9,5229.0,,,Training,No (no budget data)
-Fantasia,1940-11-13,1940,G,"Animation, Family, Music, Fantasy",,,83.3,2187.1,,,Training,No (no budget data)
-Song of the South,1946-11-12,1946,G,Adventure,,,65.0,1078.5,,,Training,No (no budget data)
-"20,000 Leagues Under the Sea",1954-12-23,1954,Not available,"Scifi, Drama, Family, Fantasy",,,28.2,528.3,,,Training,No (no budget data)
-Lady and the Tramp,1955-06-22,1955,G,"Romance, Drama, Animation, Comedy, Family",,,93.6,1236.0,,,Training,No (no budget data)
-The Absent Minded Professor,1961-03-16,1961,Not available,Comedy,,,25.4,310.1,,,Training,No (no budget data)
-Babes in Toyland,1961-12-14,1961,G,"Fantasy, Romance, Comedy, Family",,,10.2,124.8,,,Training,No (no budget data)
-Bon Voyage!,1962-05-17,1962,Not Rated,Comedy,,,9.2,109.6,,,Training,No (no budget data)
-The Sword in the Stone,1963-12-25,1963,Not available,"Animation, Comedy, Family, Fantasy",,,22.2,153.9,,,Training,No (no budget data)
-Blackbeard's Ghost,1968-02-08,1968,Not available,"Fantasy, Comedy, Family",,,21.5,138.6,,,Testing,No (no budget data)
-The Aristocats,1970-04-24,1970,G,"Animation, Comedy, Family",,,55.7,255.2,,,Training,No (no budget data)
-The Boatniks,1970-07-01,1970,Not available,Comedy,,,18.6,101.2,,,Training,No (no budget data)
-Bedknobs and Broomsticks,1971-10-07,1971,Not available,"Music, Action, Fantasy, Comedy, Family, Animation",,,17.9,91.3,,,Training,No (no budget data)
-The Apple Dumpling Gang,1975-07-01,1975,Not available,"Western, Family, Comedy",,,31.9,131.2,,,Training,No (no budget data)
-The Many Adventures of Winnie the Pooh,1977-03-11,1977,Not available,"Animation, Comedy, Family",,,0.0,0.0,,,Testing,No (no budget data)
-The Rescuers,1977-06-22,1977,Not available,"Fantasy, Family, Animation, Comedy",,,48.8,159.7,,,Testing,No (no budget data)
-Herbie Goes to Monte Carlo,1977-06-24,1977,Not available,"Action, Romance, Sport, Crime, Comedy, Family, Fantasy",,,28.0,105.8,,,Training,No (no budget data)
-The Black Hole,1979-12-21,1979,Not available,"Scifi, Action",,,35.8,120.4,,,Training,No (no budget data)
-Midnight Madness,1980-02-08,1980,Not available,,,,2.9,9.1,,,Training,No (no budget data)
-The Last Flight of Noah’s Ark,1980-06-25,1980,Not available,,6.0,97.0,11.0,34.5,5.8,Walt Disney Productions,Training,Yes
-The Devil and Max Devlin,1981-01-01,1981,Not available,,,96.0,16.0,48.5,5.0,Walt Disney Productions,Training,No (no budget data)
-Amy,1981-03-20,1981,Not available,"Drama, Family",,,0.0,0.0,,,Testing,No (no budget data)
-The Fox and the Hound,1981-07-10,1981,Not available,"Animation, Drama, Family, Action",12.0,83.0,43.9,133.1,7.3,Walt Disney Animation Studios,Training,Yes
-Condorman,1981-08-07,1981,Not available,Action,,,0.0,0.0,,,Training,No (no budget data)
-Night Crossing,1982-02-05,1982,Not available,Drama,10.0,107.0,4.5,12.9,6.5,Walt Disney Productions,Training,Yes
-Tron,1982-07-09,1982,Not available,"Scifi, Action",17.0,96.0,26.9,77.2,6.8,Walt Disney Productions,Training,Yes
-Tex,1982-11-19,1982,Not available,Drama,,103.0,7.2,20.6,6.5,Walt Disney Productions,Testing,No (no budget data)
-Trenchcoat,1983-03-11,1983,Not available,Comedy,5.0,91.0,4.3,11.5,5.3,Walt Disney Productions,Training,Yes
-Something Wicked This Way Comes,1983-04-29,1983,Not available,Horror,19.0,95.0,5.7,15.1,6.8,Walt Disney Productions,Testing,Yes
-Never Cry Wolf,1983-10-07,1983,Not available,Drama,,105.0,27.7,70.7,7.5,Walt Disney Pictures,Training,No (no budget data)
-Running Brave,1983-11-04,1983,Not available,Drama,8.0,106.0,1.2,3.2,6.7,Englander Productions,Training,Yes
-Splash,1984-03-09,1984,PG,"Fantasy, Comedy, Romance",8.0,111.0,62.6,157.1,6.3,Touchstone Pictures,Training,Yes
-Country,1984-09-29,1984,Not available,Drama,,105.0,8.4,21.1,6.7,Far West,Training,No (no budget data)
-Baby: Secret of the Lost Legend,1985-03-22,1985,Not available,Adventure,,95.0,14.3,33.9,5.1,Silver Screen Partners II,Training,No (no budget data)
-Return to Oz,1985-06-21,1985,Not available,"Fantasy, Family, Horror",,,10.6,25.2,,,Testing,No (no budget data)
-The Black Cauldron,1985-07-24,1985,Not available,"Animation, Horror, Action, Family, Fantasy",44.0,80.0,21.3,50.6,6.4,Walt Disney Pictures,Training,Yes
-My Science Project,1985-08-09,1985,Not available,Comedy,,94.0,4.1,9.7,6.0,Touchstone Pictures,Training,No (no budget data)
-The Journey of Natty Gann,1985-09-27,1985,Not available,"Drama, Family",,101.0,9.5,22.3,7.0,Walt Disney Pictures,Training,No (no budget data)
-One Magic Christmas,1985-11-22,1985,Not available,"Fantasy, Family",,89.0,13.2,31.4,6.5,Walt Disney Pictures,Training,No (no budget data)
-Down and Out in Beverly Hills,1986-01-31,1986,R,Comedy,14.0,103.0,62.1,141.2,6.2,Touchstone Pictures,Training,Yes
-Off Beat,1986-04-11,1986,Not available,Comedy,,,4.8,11.0,,,Training,No (no budget data)
-Ruthless People,1986-06-27,1986,R,Comedy,13.0,93.0,71.6,162.7,6.9,Touchstone Pictures,Testing,Yes
-The Great Mouse Detective,1986-07-02,1986,Not available,"Animation, Family",14.0,74.0,23.6,53.6,7.2,Walt Disney Pictures,Training,Yes
-Flight of the Navigator,1986-07-30,1986,Not available,"Scifi, Family, Comedy",9.0,90.0,18.6,42.2,6.9,Walt Disney Pictures,Training,Yes
-Tough Guys,1986-10-03,1986,Not available,Comedy,10.0,104.0,21.5,48.8,6.2,Touchstone Pictures,Training,Yes
-The Color of Money,1986-10-17,1986,R,Drama,13.8,119.0,52.3,118.0,7.0,Touchstone Pictures,Training,Yes
-Outrageous Fortune,1987-01-30,1987,R,Comedy,,99.0,52.9,114.0,6.2,Touchstone Pictures,Testing,No (no budget data)
-Tin Men,1987-03-06,1987,Not available,Comedy,11.0,112.0,25.4,54.8,6.6,Touchstone Pictures,Training,Yes
-Ernest Goes to Camp,1987-05-22,1987,Not available,Comedy,3.5,92.0,23.5,50.7,5.5,Emshell Producers,Training,Yes
-Benji the Hunted,1987-06-05,1987,Not available,"Action, Family",,,15.2,32.8,,,Training,No (no budget data)
-Adventures in Babysitting,1987-07-03,1987,Not available,"Comedy, Crime, Romance",7.0,102.0,33.8,72.9,6.9,Touchstone Pictures,Training,Yes
-Stakeout,1987-08-05,1987,R,Comedy,,117.0,65.7,141.6,6.6,Touchstone Pictures,Training,No (no budget data)
-Can't Buy Me Love,1987-08-14,1987,Not available,Romantic Comedy,,94.0,31.6,68.2,6.8,Touchstone Pictures,Testing,No (no budget data)
-Hello Again,1987-11-06,1987,Not available,Comedy,,96.0,20.4,44.0,5.3,Touchstone Pictures,Training,No (no budget data)
-3 Men and a Baby,1987-11-25,1987,PG,"Comedy, Drama, Family",,,167.8,353.3,,,Training,No (no budget data)
-Good Morning Vietnam,1987-12-23,1987,R,Comedy,13.0,121.0,123.9,254.4,7.3,Touchstone Pictures,Testing,Yes
-Shoot to Kill,1988-02-12,1988,Not available,Action,15.0,110.0,29.3,60.1,6.8,Touchstone Pictures,Testing,Yes
-D.O.A.,1988-03-18,1988,Not available,Thriller/Suspense,,96.0,12.7,26.1,6.2,Bigelow Productions,Training,No (no budget data)
-Return to Snowy River,1988-04-15,1988,PG,Adventure,,99.0,13.7,28.1,6.6,Burrowes Film Group,Testing,No (no budget data)
-Big Business,1988-06-10,1988,PG,Comedy,,97.0,40.2,82.4,6.4,Touchstone Pictures,Training,No (no budget data)
-Who Framed Roger Rabbit?,1988-06-22,1988,PG,Comedy,70.0,104.0,154.1,316.3,7.7,Touchstone Pictures,Training,Yes
-Cocktail,1988-07-29,1988,R,Drama,20.0,104.0,78.2,160.4,5.9,Touchstone Pictures,Training,Yes
-The Rescue,1988-08-05,1988,Not available,"Action, Thriller, Drama, Documentation",,,5.9,12.0,,,Training,No (no budget data)
-Heartbreak Hotel,1988-09-30,1988,Not available,Comedy,13.0,97.0,5.5,11.3,5.7,Silver Screen Partners III,Training,Yes
-The Good Mother,1988-11-04,1988,Not available,Drama,14.0,103.0,4.8,9.8,5.7,Touchstone Pictures,Training,Yes
-Ernest Saves Christmas,1988-11-11,1988,PG,"Comedy, Family, Fantasy",6.0,95.0,28.2,57.8,5.6,Touchstone Pictures,Testing,Yes
-Oliver & Company,1988-11-18,1988,G,"Animation, Comedy, Family",31.0,74.0,49.6,102.3,6.7,Walt Disney Animation Studios,Training,Yes
-Beaches,1988-12-21,1988,PG-13,Drama,20.0,123.0,57.0,120.4,6.9,All Girl Productions,Training,Yes
-Three Fugitives,1989-01-27,1989,PG-13,Comedy,15.0,96.0,40.6,85.8,6.2,Touchstone Pictures,Training,Yes
-New York Stories,1989-03-01,1989,PG,Drama,15.0,124.0,10.8,22.7,6.4,Touchstone Pictures,Training,Yes
-Disorganized Crime,1989-04-14,1989,Not available,Comedy,,98.0,7.2,15.2,6.3,Kouf/Bigelow Productions,Training,No (no budget data)
-Dead Poets Society,1989-06-02,1989,PG,Drama,16.4,128.0,95.9,202.5,8.1,Touchstone Pictures,Training,Yes
-"Honey, I Shrunk the Kids",1989-06-23,1989,PG,"Scifi, Family, Comedy",18.0,93.0,130.7,276.2,6.4,Walt Disney Pictures,Training,Yes
-Turner & Hooch,1989-07-28,1989,PG,"Comedy, Crime, Drama, Thriller",13.0,97.0,71.1,150.2,6.2,Touchstone Pictures,Training,Yes
-Cheetah,1989-08-18,1989,Not available,"Drama, Family",5.0,83.0,7.9,16.7,6.0,Silver Screen Partners III,Testing,Yes
-An Innocent Man,1989-10-06,1989,R,Drama,,113.0,19.4,41.0,6.5,Interscope Communications,Training,No (no budget data)
-Gross Anatomy,1989-10-20,1989,PG-13,Drama,8.5,109.0,11.3,24.0,6.1,Hill/Rosenman,Training,Yes
-The Little Mermaid,1989-11-15,1989,G,"Fantasy, Comedy, Family, Romance, Animation",40.0,83.0,111.5,223.7,7.6,Walt Disney Pictures,Training,Yes
-Blaze,1989-12-13,1989,R,Drama,22.0,120.0,19.0,39.9,6.0,Touchstone Pictures,Training,Yes
-Stella,1990-02-02,1990,PG-13,Drama,,109.0,20.1,40.1,6.2,The Samuel Goldwyn Company,Training,No (no budget data)
-Where the Heart Is,1990-02-23,1990,Not available,Comedy,15.0,107.0,1.1,2.2,6.0,Touchstone Pictures,Training,Yes
-Pretty Woman,1990-03-23,1990,R,Romantic Comedy,14.0,119.0,178.4,356.4,7.0,Touchstone Pictures,Testing,Yes
-Ernest Goes to Jail,1990-04-06,1990,PG,Comedy,9.0,81.0,25.0,50.0,5.4,Silver Screen Partners IV,Training,Yes
-Spaced Invaders,1990-04-27,1990,PG,Comedy,3.0,100.0,15.0,30.0,5.3,Silver Screen Partners IV,Training,Yes
-Fire Birds,1990-05-24,1990,PG-13,Action,22.0,85.0,14.8,29.5,4.8,Nova International Films,Training,Yes
-Dick Tracy,1990-06-15,1990,PG,Action,47.0,105.0,103.7,207.2,6.1,Touchstone Pictures,Testing,Yes
-Betsy's Wedding,1990-06-22,1990,R,Comedy,,94.0,19.7,39.4,5.6,Touchstone Pictures,Training,No (no budget data)
-Arachnophobia,1990-07-18,1990,PG-13,Thriller/Suspense,22.0,109.0,53.2,106.3,6.4,Hollywood Pictures,Training,Yes
-DuckTales: The Movie - Treasure of th…,1990-08-03,1990,G,Adventure,,,18.1,36.1,,,Training,No (no budget data)
-Taking Care of Business,1990-08-17,1990,R,Comedy,,108.0,20.0,40.0,6.5,Hollywood Pictures,Training,No (no budget data)
-Mr. Destiny,1990-10-12,1990,PG-13,Comedy,20.0,110.0,15.4,30.7,6.4,Laurence Mark Productions,Training,Yes
-The Rescuers Down Under,1990-11-16,1990,G,"Fantasy, Animation, Comedy, Family, Crime, Drama",30.0,77.0,27.9,55.8,6.9,Silver Screen Partners IV,Training,Yes
-3 Men and a Little Lady,1990-11-21,1990,PG,"Comedy, Drama, Family, Romance",,,71.6,143.1,,,Testing,No (no budget data)
-Green Card,1990-12-25,1990,PG-13,Romantic Comedy,12.5,107.0,29.8,59.7,6.2,Touchstone Pictures,Testing,Yes
-White Fang,1991-01-18,1991,PG,"Drama, Action, Animation, Family",14.0,107.0,34.7,69.5,6.7,Walt Disney Pictures,Training,Yes
-Scenes from a Mall,1991-02-22,1991,Not available,Comedy,,,9.6,19.1,,,Training,No (no budget data)
-Haakon Haakonsen,1991-03-01,1991,PG,Adventure,,,15.0,30.1,,,Testing,No (no budget data)
-The Marrying Man,1991-04-05,1991,R,Romantic Comedy,26.0,115.0,12.5,24.9,5.8,Hollywood Pictures,Training,Yes
-Oscar,1991-04-26,1991,PG,Comedy,35.0,109.0,23.6,47.2,6.5,Joseph S. Vecchio Entertainment,Training,Yes
-One Good Cop,1991-05-03,1991,R,Action,4.0,114.0,11.3,22.6,5.9,Hollywood Pictures,Testing,Yes
-What About Bob?,1991-05-17,1991,PG,Comedy,35.0,99.0,63.7,127.6,7.0,Touchstone Pictures,Testing,Yes
-Wild Hearts Can't Be Broken,1991-05-24,1991,Not available,"Drama, Family, Romance",,88.0,7.3,14.6,7.2,Walt Disney Pictures,Training,No (no budget data)
-The Rocketeer,1991-06-21,1991,PG,"Scifi, Family, Action",35.0,108.0,46.6,93.3,6.5,Walt Disney Pictures,Training,Yes
-The Doctor,1991-07-24,1991,PG-13,Drama,,122.0,37.5,75.1,7.0,Touchstone Pictures,Training,No (no budget data)
-Paradise,1991-09-18,1991,PG-13,Drama,,111.0,18.6,37.3,6.7,Grand Highway Productions,Training,No (no budget data)
-Deceived,1991-09-27,1991,PG-13,Thriller/Suspense,,104.0,28.7,57.5,6.2,Touchstone Pictures,Training,No (no budget data)
-Ernest Scared Stupid,1991-10-11,1991,PG,Comedy,,91.0,14.1,28.3,5.8,Touchstone Pictures,Training,No (no budget data)
-Billy Bathgate,1991-11-01,1991,R,Drama,48.0,106.0,15.6,31.2,5.9,Touchstone Pictures,Training,Yes
-Beauty and the Beast,1991-11-13,1991,G,"Fantasy, Family, Animation, Scifi, Drama, Romance",25.0,84.0,219.0,363.0,8.0,Walt Disney Pictures,Training,Yes
-Father of the Bride,1991-12-20,1991,PG,Comedy,,105.0,89.3,179.8,6.5,Touchstone Pictures,Training,No (no budget data)
-The Hand That Rocks the Cradle,1992-01-10,1992,R,Thriller/Suspense,11.7,110.0,88.0,178.8,6.6,Hollywood Pictures,Training,Yes
-Medicine Man,1992-02-07,1992,PG-13,Drama,40.0,106.0,44.9,91.3,6.0,Hollywood Pictures,Training,Yes
-Blame it on the Bellboy,1992-03-06,1992,PG-13,Comedy,,78.0,2.9,5.9,5.5,Bellboy Films Limited,Training,No (no budget data)
-Noises Off...,1992-03-20,1992,PG-13,Comedy,12.0,101.0,2.3,4.6,7.5,Touchstone Pictures,Training,Yes
-Straight Talk,1992-04-03,1992,PG,Comedy,,91.0,21.2,43.1,5.8,Hollywood Pictures,Training,No (no budget data)
-Newsies,1992-04-08,1992,PG,"Drama, Family, History",15.0,121.0,2.7,5.5,6.9,Touchwood Pacific Partners 1,Testing,Yes
-Passed Away,1992-04-24,1992,PG-13,,,96.0,4.0,8.2,5.8,Hollywood Pictures,Training,No (no budget data)
-Encino Man,1992-05-22,1992,PG,Comedy,7.0,88.0,40.1,81.4,5.8,Encino Man Productions,Training,Yes
-Sister Act,1992-05-29,1992,PG,"Comedy, Music, Crime, Family",31.0,100.0,139.6,283.6,6.4,Touchstone Pictures,Training,Yes
-Honey I Blew Up the Kid,1992-07-17,1992,PG,Comedy,40.0,89.0,58.7,119.2,4.9,Touchwood Pacific Partners 1,Training,Yes
-A Stranger Among Us,1992-07-17,1992,PG-13,Drama,18.0,110.0,12.3,25.0,5.6,Hollywood Pictures,Training,Yes
-3 Ninjas,1992-08-07,1992,PG,Action,6.5,84.0,29.0,59.0,5.3,Touchstone Pictures,Training,Yes
-A Gun in Betty Lou's Handbag,1992-08-21,1992,PG-13,,,,3.6,7.3,,,Testing,No (no budget data)
-Captain Ron,1992-09-18,1992,PG-13,Comedy,24.0,100.0,22.5,45.7,5.8,Touchstone Pictures,Training,Yes
-Sarafina!,1992-09-18,1992,PG-13,Drama,,117.0,7.3,14.8,6.3,British Broadcasting Corporation (BBC),Testing,No (no budget data)
-Innocent Blood,1992-09-25,1992,R,Horror,20.0,112.0,4.9,9.9,6.2,Warner Bros.,Training,Yes
-The Mighty Ducks,1992-10-02,1992,PG,"Comedy, Drama, Sport, Family",10.0,104.0,50.8,103.1,6.6,Avnet/Kerner Productions,Training,Yes
-1492: Conquest of Paradise,1992-10-09,1992,PG-13,Adventure,47.0,154.0,7.1,14.4,6.5,Gaumont,Training,Yes
-Consenting Adults,1992-10-16,1992,R,Drama,18.0,99.0,21.6,43.9,5.7,Hollywood Pictures,Testing,Yes
-Aladdin,1992-11-11,1992,G,"Fantasy, Romance, Animation, Comedy, Family",28.0,90.0,217.4,442.0,8.0,Walt Disney Pictures,Testing,Yes
-The Distinguished Gentleman,1992-12-04,1992,R,Comedy,50.0,112.0,46.4,94.3,5.9,Hollywood Pictures,Training,Yes
-The Muppet Christmas Carol,1992-12-11,1992,G,"Fantasy, Comedy, Drama, Family",12.0,85.0,27.3,55.4,7.7,Walt Disney Pictures,Training,Yes
-Alive,1993-01-15,1993,R,Adventure,32.0,120.0,36.3,73.9,7.1,Film Andes S.A.,Testing,Yes
-Aspen Extreme,1993-01-22,1993,PG-13,Romantic Comedy,14.0,113.0,7.8,16.0,6.0,Hollywood Pictures,Training,Yes
-The Cemetery Club,1993-02-03,1993,PG-13,Comedy,,,5.6,11.4,,,Training,No (no budget data)
-Homeward Bound: The Incredible Journey,1993-02-03,1993,G,"Family, Action, Comedy, Drama",,84.0,41.8,85.2,6.9,Touchwood Pacific Partners 1,Training,No (no budget data)
-Swing Kids,1993-03-05,1993,PG-13,Musical,,112.0,5.6,11.5,6.8,Hollywood Pictures,Training,No (no budget data)
-A Far Off Place,1993-03-12,1993,PG,Adventure,,108.0,12.9,26.2,6.6,Walt Disney Pictures,Training,No (no budget data)
-Born Yesterday,1993-03-26,1993,PG,Romantic Comedy,,100.0,17.8,36.2,5.2,Hollywood Pictures,Training,No (no budget data)
-The Adventures of Huck Finn,1993-04-02,1993,PG,"Comedy, Drama, Family",6.5,108.0,24.1,49.1,6.2,Steve White Productions,Training,Yes
-Bound by Honor,1993-04-16,1993,R,,,,4.5,9.2,,,Training,No (no budget data)
-Indian Summer,1993-04-23,1993,R,Comedy,9.0,97.0,14.7,30.0,6.6,Outlaw Productions (I),Training,Yes
-Super Mario Bros.,1993-05-28,1993,PG,Action,48.0,104.0,20.8,42.4,4.1,Allied Filmmakers,Training,Yes
-Life With Mikey,1993-06-04,1993,PG,Comedy,,91.0,12.3,25.1,5.6,Touchstone Pictures,Training,No (no budget data)
-Guilty as Sin,1993-06-04,1993,R,Thriller/Suspense,12.0,107.0,22.6,46.1,5.6,Hollywood Pictures,Training,Yes
-What's Love Got to Do With It,1993-06-09,1993,R,Drama,15.0,118.0,39.1,79.6,7.3,Touchstone Pictures,Training,Yes
-Son in Law,1993-07-02,1993,PG-13,Comedy,,95.0,26.0,52.9,5.8,Hollywood Pictures,Training,No (no budget data)
-Hocus Pocus,1993-07-16,1993,PG,"Fantasy, Family, Horror, Comedy, European",28.0,96.0,39.4,80.1,6.9,Walt Disney Pictures,Training,Yes
-Another Stakeout,1993-07-23,1993,PG-13,Comedy,,108.0,20.1,40.9,5.6,Touchstone Pictures,Training,No (no budget data)
-My Boyfriend's Back,1993-08-06,1993,PG-13,,12.0,85.0,3.2,6.6,5.4,Touchstone Pictures,Training,Yes
-Father Hood,1993-08-27,1993,PG-13,,,95.0,3.3,6.7,4.9,Hollywood Pictures,Testing,No (no budget data)
-The Joy Luck Club,1993-09-08,1993,R,Drama,11.0,139.0,32.8,66.8,7.7,Hollywood Pictures,Training,Yes
-Money for Nothing,1993-09-10,1993,R,Comedy,11.0,100.0,1.0,2.1,5.7,Permut Presentations,Training,Yes
-The Program,1993-09-24,1993,R,Action,15.0,112.0,23.0,46.9,6.5,Touchstone Pictures,Training,Yes
-Cool Runnings,1993-10-01,1993,PG,"Comedy, History, Sport, Family, European",14.0,98.0,68.9,140.4,7.0,Walt Disney Pictures,Testing,Yes
-The Nightmare Before Christmas,1993-10-13,1993,PG,"Fantasy, Family, Animation",18.0,76.0,50.4,100.0,8.0,Touchstone Pictures,Testing,Yes
-The Three Musketeers,1993-11-12,1993,PG,"Comedy, European",30.0,105.0,53.7,109.3,6.4,Walt Disney Pictures,Testing,Yes
-Sister Act 2 Back in the Habit,1993-12-10,1993,PG,Comedy,38.0,107.0,57.3,117.0,5.6,Touchstone Pictures,Training,Yes
-Tombstone,1993-12-25,1993,R,Western,25.0,130.0,56.5,115.8,7.8,Hollywood Pictures,Training,Yes
-The Air Up There,1994-01-07,1994,PG,Comedy,17.1,107.0,20.8,42.9,5.5,Hollywood Pictures,Training,Yes
-Cabin Boy,1994-01-07,1994,PG-13,Comedy,9.0,80.0,3.5,7.2,5.3,Touchstone Pictures,Testing,Yes
-Iron Will,1994-01-14,1994,PG,"Family, Action",,108.0,20.6,42.6,6.6,Walt Disney Pictures,Training,No (no budget data)
-Red Rock West,1994-01-28,1994,R,,8.0,98.0,2.5,5.2,7.0,Propaganda Films,Training,Yes
-Blank Check,1994-02-11,1994,PG,"Comedy, Family, Crime",,93.0,30.6,63.2,5.3,Walt Disney Pictures,Training,No (no budget data)
-Angie,1994-03-04,1994,R,Comedy,,,9.3,19.1,,,Training,No (no budget data)
-The Ref,1994-03-09,1994,R,Comedy,11.0,96.0,11.3,23.4,6.9,Touchstone Pictures,Training,Yes
-D2: The Mighty Ducks,1994-03-25,1994,PG,"Drama, Comedy, Family, Sport",,106.0,45.6,94.2,6.1,Avnet/Kerner Productions,Training,No (no budget data)
-Holy Matrimony,1994-04-08,1994,Not available,Comedy,,93.0,0.7,1.5,5.1,Aurora Productions LLC,Training,No (no budget data)
-White Fang 2: Myth of the White Wolf,1994-04-15,1994,PG,"Family, Action",,,8.8,18.1,,,Training,No (no budget data)
-The Inkwell,1994-04-22,1994,R,Comedy,,110.0,8.9,18.3,6.4,Touchstone Pictures,Training,No (no budget data)
-When a Man Loves a Woman,1994-04-29,1994,R,Drama,,126.0,50.0,103.4,6.6,Touchstone Pictures,Training,No (no budget data)
-3 Ninjas Kick Back,1994-05-06,1994,PG,Action,20.0,93.0,11.7,24.3,4.6,Ben-Ami/Leeds Productions,Training,Yes
-Renaissance Man,1994-06-03,1994,PG-13,Comedy,40.0,128.0,24.2,49.9,6.2,Cinergi Pictures Entertainment,Training,Yes
-The Lion King,1994-06-15,1994,G,"Drama, Family, Animation",45.0,88.0,422.8,761.6,8.5,Walt Disney Pictures,Training,Yes
-I Love Trouble,1994-06-29,1994,PG,Romantic Comedy,45.0,123.0,30.8,63.7,5.3,Annhall,Training,Yes
-Angels in the Outfield,1994-07-15,1994,PG,Comedy,24.0,102.0,50.2,103.8,6.2,Caravan Pictures,Training,Yes
-In the Army Now,1994-08-12,1994,PG,Comedy,,91.0,28.9,59.7,5.0,Hollywood Pictures,Training,No (no budget data)
-Color of Night,1994-08-19,1994,R,Thriller/Suspense,40.0,121.0,19.8,40.8,5.2,Cinergi Pictures Entertainment,Training,Yes
-Camp Nowhere,1994-08-26,1994,PG,"Drama, Comedy, Family",,96.0,10.4,21.6,6.1,Hollywood Pictures,Training,No (no budget data)
-It's Pat,1994-08-26,1994,Not available,Comedy,,,0.1,0.1,,,Training,No (no budget data)
-A Simple Twist of Fate,1994-09-02,1994,PG-13,Drama,,106.0,3.4,7.0,6.3,Touchstone Pictures,Training,No (no budget data)
-Quiz Show,1994-09-14,1994,PG-13,Drama,31.0,133.0,24.8,50.8,7.5,Baltimore Pictures,Testing,Yes
-Terminal Velocity,1994-09-23,1994,PG-13,Action,50.0,102.0,16.5,34.0,5.5,Hollywood Pictures,Training,Yes
-Ed Wood,1994-09-30,1994,R,Comedy,18.0,127.0,5.8,12.0,7.8,Touchstone Pictures,Testing,Yes
-The Puppet Masters,1994-10-21,1994,R,Horror,,109.0,8.6,17.7,5.9,Hollywood Pictures,Training,No (no budget data)
-Squanto: A Warrior's Tale,1994-10-28,1994,PG,"Action, Drama, Family",19.2,102.0,3.3,6.9,6.0,Walt Disney Pictures,Testing,Yes
-The Santa Clause,1994-11-11,1994,PG,"Comedy, Drama, Family, Fantasy",22.0,97.0,144.8,298.4,6.5,Walt Disney Pictures,Training,Yes
-A Low Down Dirty Shame,1994-11-23,1994,R,Action,10.0,108.0,29.3,60.3,6.0,Caravan Pictures,Training,Yes
-The Jungle Book,1994-12-25,1994,PG,"Animation, Fantasy, Comedy, Family",27.0,111.0,44.3,88.9,6.0,Vegahom Europe,Training,Yes
-Houseguest,1995-01-06,1995,PG,Comedy,10.5,113.0,26.3,51.0,6.0,Hollywood Pictures,Training,Yes
-Bad Company,1995-01-20,1995,R,Thriller/Suspense,15.0,108.0,3.5,6.8,5.4,Touchstone Pictures,Training,Yes
-Miami Rhapsody,1995-01-27,1995,PG-13,Romantic Comedy,,95.0,5.1,9.9,5.4,Cantaloupe Production,Training,No (no budget data)
-The Jerky Boys,1995-02-03,1995,R,Comedy,,,7.6,14.6,,,Training,No (no budget data)
-Heavy Weights,1995-02-17,1995,PG,Comedy,,100.0,17.7,34.2,6.6,Caravan Pictures,Training,No (no budget data)
-Man of the House,1995-03-03,1995,PG,"Action, Family, Comedy",,96.0,40.0,77.6,5.2,All Girl Productions,Testing,No (no budget data)
-Roommates,1995-03-03,1995,PG,Comedy,,,12.1,23.4,,,Testing,No (no budget data)
-Tall Tale,1995-03-24,1995,PG,"Western, Family, Fantasy",32.0,96.0,8.2,16.0,5.9,Caravan Pictures,Training,Yes
-A Pyromaniac's Love Story,1995-03-28,1995,PG,Romantic Comedy,,,0.5,0.9,,,Training,No (no budget data)
-Funny Bones,1995-03-31,1995,R,Comedy,,,0.5,1.0,,,Testing,No (no budget data)
-Jefferson in Paris,1995-03-31,1995,PG-13,Drama,14.0,139.0,2.5,4.8,5.7,Touchstone Pictures,Training,Yes
-A Goofy Movie,1995-04-07,1995,G,"Animation, Comedy, Family, Romance",18.0,78.0,35.3,68.5,6.9,Walt Disney Pictures,Training,Yes
-While You Were Sleeping,1995-04-21,1995,PG,"Romance, Comedy, Drama",17.0,103.0,81.1,157.1,6.7,Hollywood Pictures,Testing,Yes
-Crimson Tide,1995-05-12,1995,R,Action,53.0,116.0,91.4,177.1,7.3,Hollywood Pictures,Training,Yes
-Mad Love,1995-05-26,1995,PG-13,Drama,,93.0,15.4,29.9,5.4,Touchstone Pictures,Training,No (no budget data)
-Pocahontas,1995-06-10,1995,G,"Romance, Animation, Drama, Family, European",55.0,81.0,141.6,274.4,6.7,Walt Disney Pictures,Training,Yes
-Judge Dredd,1995-06-30,1995,R,Action,90.0,96.0,34.7,67.2,5.6,Hollywood Pictures,Training,Yes
-Operation Dumbo Drop,1995-07-28,1995,PG,"Comedy, Drama, Family, War, Action",,107.0,24.7,47.8,5.1,Walt Disney Pictures,Testing,No (no budget data)
-A Kid in King Arthur's Court,1995-08-11,1995,PG,"Comedy, Romance, Family, Fantasy",15.0,89.0,13.4,26.0,4.7,Tapestry Films,Testing,Yes
-Dangerous Minds,1995-08-11,1995,R,Drama,23.0,99.0,84.9,164.6,6.5,Hollywood Pictures,Training,Yes
-The Tie That Binds,1995-09-08,1995,R,Thriller/Suspense,,,5.8,11.2,,,Testing,No (no budget data)
-Unstrung Heroes,1995-09-15,1995,PG,Drama,,,7.9,15.4,,,Testing,No (no budget data)
-The Big Green,1995-09-29,1995,PG,"Action, Comedy, Family, Sport",12.0,100.0,17.7,34.4,5.6,Caravan Pictures,Training,Yes
-Dead Presidents,1995-10-04,1995,R,Drama,10.0,119.0,24.1,46.7,6.9,Caravan Pictures,Training,Yes
-The Scarlet Letter,1995-10-13,1995,R,Drama,46.0,135.0,10.4,20.1,5.3,Allied Stars Ltd.,Training,Yes
-Feast of July,1995-10-13,1995,R,Drama,,,0.3,0.6,,,Training,No (no budget data)
-Powder,1995-10-27,1995,PG-13,Drama,9.5,111.0,30.8,59.7,6.6,Caravan Pictures,Training,Yes
-Toy Story,1995-11-22,1995,G,"Comedy, Family, Fantasy, Animation",30.0,81.0,191.8,370.4,8.3,Walt Disney Pictures,Training,Yes
-Father of the Bride Part II,1995-12-08,1995,PG,Comedy,30.0,106.0,76.6,147.7,6.1,Sandollar Productions,Training,Yes
-Nixon,1995-12-20,1995,R,Drama,44.0,192.0,13.7,26.3,7.1,Cinergi Pictures Entertainment,Training,Yes
-Tom and Huck,1995-12-22,1995,PG,"Drama, Action, Comedy, Family, Romance, Western",,97.0,23.8,45.9,5.5,Walt Disney Pictures,Training,No (no budget data)
-Mr. Holland's Opus,1995-12-29,1995,PG,"Drama, Music",23.0,143.0,82.6,157.5,7.3,Hollywood Pictures,Training,Yes
-White Squall,1996-02-02,1996,PG-13,Adventure,38.0,129.0,10.2,19.5,6.6,Hollywood Pictures,Training,Yes
-Muppet Treasure Island,1996-02-16,1996,G,"Comedy, Family, Romance, Action",,99.0,34.3,65.5,7.0,Walt Disney Pictures,Training,No (no budget data)
-Mr. Wrong,1996-02-16,1996,PG-13,Romantic Comedy,,96.0,12.8,24.4,3.8,Mandeville Films,Training,No (no budget data)
-Before and After,1996-02-23,1996,PG-13,Drama,35.0,108.0,8.6,16.5,6.1,Caravan Pictures,Testing,Yes
-Up Close & Personal,1996-03-01,1996,PG-13,Drama,60.0,124.0,51.0,97.4,6.2,Touchstone Pictures,Training,Yes
-Homeward Bound II: Lost in San Franc…,1996-03-08,1996,G,Adventure,,,32.7,62.4,,,Training,No (no budget data)
-Two Much,1996-03-15,1996,PG-13,Romantic Comedy,,,1.1,2.1,,,Training,No (no budget data)
-Un indien dans la ville,1996-03-22,1996,PG,Comedy,,,1.0,2.0,,,Training,No (no budget data)
-James and the Giant Peach,1996-04-12,1996,PG,"Fantasy, Animation, Family",38.0,79.0,28.9,55.2,6.7,Walt Disney Pictures,Training,Yes
-Celtic Pride,1996-04-19,1996,PG-13,Comedy,,91.0,9.2,17.6,5.3,Caravan Pictures,Testing,No (no budget data)
-Last Dance,1996-05-03,1996,R,Drama,,103.0,5.9,11.2,5.7,Touchstone Pictures,Training,No (no budget data)
-Boys,1996-05-10,1996,PG-13,Drama,,,21.9,41.8,,,Training,No (no budget data)
-Spy Hard,1996-05-24,1996,PG-13,Comedy,18.0,81.0,26.9,51.4,5.4,Hollywood Pictures,Training,Yes
-Eddie,1996-05-31,1996,PG-13,Comedy,30.0,100.0,31.4,59.8,5.2,Permut Presentations,Training,Yes
-The Rock,1996-06-07,1996,R,Action,75.0,136.0,134.1,255.7,7.4,Hollywood Pictures,Testing,Yes
-The Hunchback of Notre Dame,1996-06-21,1996,G,"Animation, Family, Drama, Romance",100.0,91.0,100.1,191.0,7.0,Walt Disney Animation Studios,Training,Yes
-Phenomenon,1996-07-05,1996,PG,Drama,32.0,123.0,104.6,199.6,6.4,Touchstone Pictures,Testing,Yes
-Kazaam,1996-07-17,1996,PG,"Fantasy, Comedy, Family",20.0,93.0,18.9,36.0,3.0,Interscope Communications,Training,Yes
-Jack,1996-08-09,1996,PG-13,"Comedy, Drama, Fantasy",45.0,113.0,58.6,111.8,5.8,Hollywood Pictures,Training,Yes
-First Kid,1996-08-30,1996,PG,"Comedy, Family",,101.0,26.5,50.5,5.3,Caravan Pictures,Training,No (no budget data)
-The Rich Man's Wife,1996-09-13,1996,R,Thriller/Suspense,,,8.5,16.3,,,Training,No (no budget data)
-D3: The Mighty Ducks,1996-10-04,1996,PG,"Action, Drama, Family, Sport, Comedy",,104.0,22.9,43.7,5.5,Walt Disney Pictures,Training,No (no budget data)
-The Associate,1996-10-25,1996,PG-13,Comedy,,114.0,12.8,24.3,6.1,Hollywood Pictures,Training,No (no budget data)
-Ransom,1996-11-08,1996,R,Action,80.0,121.0,136.5,259.8,6.7,Touchstone Pictures,Training,Yes
-The War at Home,1996-11-20,1996,R,,,,0.0,0.1,,,Testing,No (no budget data)
-101 Dalmatians,1996-11-27,1996,G,"Comedy, Crime, Family",75.0,103.0,136.2,258.7,5.7,Walt Disney Pictures,Testing,Yes
-The Preacher's Wife,1996-12-13,1996,PG,Drama,40.0,123.0,48.1,91.1,5.6,Mundy Lane Entertainment,Training,Yes
-Evita,1996-12-25,1996,PG,Musical,55.0,135.0,50.0,92.1,6.3,Hollywood Pictures,Training,Yes
-Metro,1997-01-17,1997,R,Action,55.0,117.0,32.0,58.8,5.5,Touchstone Pictures,Training,Yes
-Prefontaine,1997-01-24,1997,PG-13,Drama,8.0,106.0,0.6,1.1,6.8,Hollywood Pictures,Training,Yes
-Shadow Conspiracy,1997-01-31,1997,R,Thriller/Suspense,,,2.2,4.0,,,Training,No (no budget data)
-That Darn Cat,1997-02-14,1997,PG,"Comedy, Action, Crime, Family",,89.0,18.3,33.6,4.7,Walt Disney Pictures,Training,No (no budget data)
-Jungle 2 Jungle,1997-03-07,1997,PG,"Comedy, Family",32.0,105.0,59.9,110.1,5.2,Walt Disney Pictures,Training,Yes
-The Sixth Man,1997-03-28,1997,PG-13,Comedy,11.0,107.0,14.8,27.1,5.7,All Net Productions,Testing,Yes
-Grosse Pointe Blank,1997-04-11,1997,R,Black Comedy,15.0,107.0,28.1,51.6,7.3,Hollywood Pictures,Training,Yes
-Romy and Michele's High School Reunion,1997-04-25,1997,R,Comedy,,92.0,29.2,53.7,6.2,Touchstone Pictures,Training,No (no budget data)
-Gone Fishin',1997-05-30,1997,PG,Comedy,53.0,94.0,19.7,36.3,4.8,Caravan Pictures,Training,Yes
-Con Air,1997-06-06,1997,R,Action,75.0,115.0,101.1,185.7,6.9,Touchstone Pictures,Training,Yes
-Hercules,1997-06-13,1997,G,"Fantasy, Romance, Animation, Comedy, Family, European, Action",85.0,93.0,99.1,182.0,7.3,Walt Disney Pictures,Training,Yes
-George Of The Jungle,1997-07-16,1997,PG,Comedy,55.0,92.0,105.3,193.3,5.5,Walt Disney Pictures,Training,Yes
-Nothing To Lose,1997-07-18,1997,R,Comedy,25.0,98.0,44.5,81.7,6.7,O Entertainment,Testing,Yes
-Air Bud,1997-08-01,1997,PG,Comedy,3.0,98.0,24.6,45.3,5.3,Walt Disney Pictures,Training,Yes
-G.I. Jane,1997-08-22,1997,R,Drama,50.0,125.0,48.2,88.5,6.0,Caravan Pictures,Testing,Yes
-A Thousand Acres,1997-09-19,1997,R,Drama,28.0,105.0,7.9,14.6,6.1,Touchstone Pictures,Testing,Yes
-Washington Square,1997-10-05,1997,PG,Drama,,,1.8,3.3,,,Training,No (no budget data)
-Rocket Man,1997-10-10,1997,PG,Comedy,,95.0,15.4,28.4,5.9,Caravan Pictures,Training,No (no budget data)
-Playing God,1997-10-17,1997,R,Thriller/Suspense,12.0,94.0,4.2,7.7,5.6,Beacon Communications,Testing,Yes
-Flubber,1997-11-26,1997,PG,"Scifi, Comedy, Family",80.0,93.0,93.0,170.4,5.3,Walt Disney Pictures,Training,Yes
-An American Werewolf in Paris,1997-12-25,1997,R,Horror,25.0,105.0,26.6,48.5,5.1,Hollywood Pictures,Training,Yes
-Kundun,1997-12-25,1997,PG-13,Drama,28.0,134.0,5.7,10.2,7.0,De Fina-Cappa,Training,Yes
-Mr. Magoo,1997-12-25,1997,PG,"Comedy, Family",30.0,87.0,21.4,39.1,4.0,Walt Disney Pictures,Testing,Yes
-Deep Rising,1998-01-30,1998,R,Action,45.0,106.0,11.2,20.1,6.1,Calimari Productions,Training,Yes
-An Alan Smithee Film: Burn Hollywood …,1998-02-27,1998,R,Comedy,,,0.0,0.1,,,Training,No (no budget data)
-Krippendorf's Tribe,1998-02-27,1998,PG-13,Comedy,,94.0,7.6,13.6,5.0,Dreyfuss / James Productions,Testing,No (no budget data)
-Meet the Deedles,1998-03-27,1998,PG,"Comedy, Family, Sport",24.0,93.0,4.4,7.8,4.1,DIC Entertainment,Training,Yes
-He Got Game,1998-05-01,1998,R,Drama,25.0,136.0,21.6,38.8,6.9,Touchstone Pictures,Training,Yes
-The Horse Whisperer,1998-05-15,1998,PG-13,Drama,60.0,169.0,75.4,135.5,6.6,Touchstone Pictures,Training,Yes
-"Six Days, Seven Nights",1998-06-12,1998,PG-13,Romantic Comedy,70.0,102.0,74.3,133.6,5.8,Caravan Pictures,Training,Yes
-Mulan,1998-06-19,1998,G,"Animation, War, Drama, Comedy, Family, Fantasy",90.0,88.0,120.6,216.8,7.6,Walt Disney Animation Studios,Training,Yes
-Armageddon,1998-07-01,1998,PG-13,Adventure,140.0,151.0,201.6,362.3,6.7,Touchstone Pictures,Training,Yes
-Jane Austen's Mafia,1998-07-24,1998,PG-13,Comedy,,,19.8,35.7,,,Training,No (no budget data)
-The Parent Trap,1998-07-29,1998,PG,"Comedy, Romance, Family",,128.0,66.3,119.2,6.6,Cinema Vehicle Services,Testing,No (no budget data)
-Firelight,1998-09-04,1998,R,Drama,,103.0,0.8,1.4,7.2,Carnival Film & Television,Training,No (no budget data)
-Simon Birch,1998-09-11,1998,PG,Drama,30.0,114.0,18.3,32.8,6.9,Hollywood Pictures,Training,Yes
-Holy Man,1998-10-09,1998,PG,Comedy,60.0,114.0,12.1,21.7,4.9,Caravan Pictures,Training,Yes
-Beloved,1998-10-16,1998,R,Drama,80.0,172.0,22.9,41.1,6.0,Harpo Films,Testing,Yes
-The Waterboy,1998-11-06,1998,PG-13,Comedy,23.0,90.0,161.5,288.7,6.1,Robert Simonds Productions,Training,Yes
-I'll Be Home For Christmas,1998-11-13,1998,PG,Comedy,30.0,86.0,12.2,21.9,5.5,Walt Disney Pictures,Training,Yes
-Enemy of the State,1998-11-20,1998,R,Action,90.0,132.0,111.5,198.5,7.3,Touchstone Pictures,Training,Yes
-A Bug's Life,1998-11-20,1998,G,"Comedy, Animation, Family, Fantasy",120.0,95.0,162.8,289.0,7.2,Pixar Animation Studios,Testing,Yes
-Rushmore,1998-12-11,1998,R,Black Comedy,9.0,93.0,17.1,28.4,7.7,American Empirical Pictures,Training,Yes
-A Civil Action,1998-12-25,1998,PG-13,Drama,75.0,115.0,56.7,94.1,6.6,Touchstone Pictures,Training,Yes
-Mighty Joe Young,1998-12-25,1998,PG,"Fantasy, Family, Thriller, Action, European",90.0,114.0,50.6,87.9,5.7,RKO Pictures,Training,Yes
-My Favorite Martian,1999-02-12,1999,PG,"Drama, Comedy, Family, Scifi",65.0,94.0,36.9,61.2,5.1,Walt Disney Pictures,Testing,Yes
-The Other Sister,1999-02-26,1999,PG-13,Romantic Comedy,35.0,129.0,27.8,46.1,6.5,Mandeville Films,Training,Yes
-Doug's 1st Movie,1999-03-26,1999,G,"Comedy, Family, Fantasy, Scifi, Animation, Drama",,,19.4,32.2,,,Training,No (no budget data)
-Ten Things I Hate About You,1999-03-31,1999,PG-13,Romantic Comedy,,,38.2,63.4,,,Training,No (no budget data)
-Endurance,1999-05-14,1999,PG,,,,0.2,0.4,,,Training,No (no budget data)
-Instinct,1999-06-04,1999,R,Drama,80.0,126.0,34.1,56.6,6.6,Spyglass Entertainment,Training,Yes
-Tarzan,1999-06-16,1999,G,"Animation, Comedy, Drama, Family, Music, Romance",130.0,88.0,171.1,283.9,7.3,Walt Disney Pictures,Training,Yes
-Summer of Sam,1999-07-02,1999,R,Drama,22.0,142.0,19.3,32.0,6.7,Touchstone Pictures,Training,Yes
-Inspector Gadget,1999-07-23,1999,PG,"Comedy, Crime, Family, Scifi, Action",90.0,78.0,97.4,161.6,4.2,Walt Disney Pictures,Testing,Yes
-The Sixth Sense,1999-08-06,1999,PG-13,Thriller/Suspense,40.0,107.0,293.5,485.4,8.1,Hollywood Pictures,Training,Yes
-The 13th Warrior,1999-08-27,1999,R,Action,160.0,102.0,32.7,54.3,6.6,Touchstone Pictures,Training,Yes
-Breakfast of Champions,1999-09-17,1999,R,Comedy,12.0,110.0,0.2,0.3,4.6,Flying Heart Films,Training,Yes
-Mumford,1999-09-24,1999,R,Comedy,28.0,112.0,4.6,7.6,6.8,Touchstone Pictures,Training,Yes
-"Mystery, Alaska",1999-10-01,1999,R,Comedy,28.0,119.0,8.9,14.8,6.7,Baldwin/Cohen Productions,Testing,Yes
-The Straight Story,1999-10-15,1999,G,Drama,10.0,112.0,6.2,10.1,8.0,Asymmetrical Productions,Training,Yes
-The Insider,1999-11-05,1999,R,Drama,90.0,157.0,29.0,47.8,7.8,Touchstone Pictures,Testing,Yes
-Toy Story 2,1999-11-19,1999,G,"Comedy, Family, Fantasy, Animation",90.0,92.0,245.9,404.5,7.9,Pixar Animation Studios,Training,Yes
-Cradle Will Rock,1999-12-08,1999,R,Drama,36.0,132.0,2.9,4.6,6.8,Cradle Productions Inc.,Training,Yes
-Deuce Bigalow: Male Gigolo,1999-12-10,1999,R,Comedy,17.0,88.0,65.5,106.9,5.7,Happy Madison Productions,Training,Yes
-Bicentennial Man,1999-12-17,1999,PG,Drama,100.0,132.0,58.2,94.8,6.9,1492 Pictures,Training,Yes
-Play it to the Bone,1999-12-24,1999,R,Comedy,24.0,124.0,8.4,13.2,5.5,Play It Inc.,Training,Yes
-Fantasia 2000 (IMAX),2000-01-01,2000,G,Musical,,,60.5,94.9,,,Training,No (no budget data)
-Gun Shy,2000-02-04,2000,R,Comedy,14.0,101.0,1.6,2.6,5.7,Hollywood Pictures,Training,Yes
-The Tigger Movie,2000-02-11,2000,G,"Animation, Comedy, Drama, Family",30.0,77.0,45.5,71.2,6.4,Disney Television Animation,Training,Yes
-Mission to Mars,2000-03-10,2000,PG,Adventure,100.0,114.0,60.9,95.2,5.7,Touchstone Pictures,Training,Yes
-High Fidelity,2000-03-31,2000,R,Comedy,30.0,113.0,27.3,42.7,7.5,Touchstone Pictures,Training,Yes
-Keeping the Faith,2000-04-14,2000,PG-13,Romantic Comedy,29.0,128.0,37.0,57.9,6.4,Spyglass Entertainment,Testing,Yes
-Dinosaur,2000-05-19,2000,PG,"Animation, Drama, Family, Fantasy, Thriller, Comedy",127.5,82.0,137.7,215.4,6.5,Walt Disney Pictures,Testing,Yes
-Shanghai Noon,2000-05-26,2000,PG-13,Western,55.0,110.0,56.9,89.0,6.6,Touchstone Pictures,Training,Yes
-Gone in 60 Seconds,2000-06-09,2000,PG-13,Action,90.0,118.0,101.6,159.0,6.5,Touchstone Pictures,Training,Yes
-Fantasia 2000 (Theatrical Release),2000-06-16,2000,G,Musical,,,9.1,14.2,,,Testing,No (no budget data)
-The Kid,2000-07-07,2000,PG,"Fantasy, Comedy, Family",65.0,104.0,69.7,109.0,6.1,Chester Films Inc.,Training,Yes
-Coyote Ugly,2000-08-04,2000,PG-13,Drama,45.0,100.0,60.8,95.1,5.7,Touchstone Pictures,Training,Yes
-The Crew,2000-08-25,2000,PG-13,Comedy,,,13.0,20.4,,,Training,No (no budget data)
-Duets,2000-09-15,2000,R,Drama,21.0,112.0,4.7,7.4,6.1,Hollywood Pictures,Training,Yes
-Remember the Titans,2000-09-29,2000,PG,"Drama, Sport",30.0,113.0,115.7,180.7,7.8,Jerry Bruckheimer Films,Training,Yes
-Unbreakable,2000-11-22,2000,PG-13,Thriller/Suspense,75.0,106.0,95.0,148.2,7.3,Touchstone Pictures,Training,Yes
-102 Dalmatians,2000-11-22,2000,G,"Comedy, Family",85.0,100.0,66.9,104.1,4.9,Cruella Productions,Testing,Yes
-The Emperor's New Groove,2000-12-15,2000,G,"Fantasy, Comedy, Family, Animation",100.0,78.0,89.3,136.8,7.4,Walt Disney Animation Studios,Training,Yes
-"O Brother, Where Art Thou?",2000-12-22,2000,PG-13,Comedy,26.0,107.0,45.5,67.9,7.7,Touchstone Pictures,Testing,Yes
-Double Take,2001-01-12,2001,PG-13,Action,,,29.8,44.4,,,Training,No (no budget data)
-Recess: School's Out,2001-02-16,2001,G,"Scifi, Comedy, Family, Animation",23.0,82.0,36.7,54.7,6.6,Disney Television Animation,Training,Yes
-Just Visiting,2001-04-06,2001,PG-13,Comedy,35.0,88.0,4.8,7.1,5.8,Gaumont,Training,Yes
-Pearl Harbor,2001-05-25,2001,PG-13,Action,140.0,183.0,198.5,295.7,6.2,Touchstone Pictures,Testing,Yes
-Atlantis: The Lost Empire,2001-06-08,2001,PG,"Scifi, Family, Fantasy, Animation, Action",120.0,95.0,84.1,125.2,6.9,Walt Disney Animation Studios,Testing,Yes
-crazy/beautiful,2001-06-29,2001,PG-13,Drama,13.0,99.0,16.9,25.2,6.4,Touchstone Pictures,Testing,Yes
-The Princess Diaries,2001-08-03,2001,G,"Comedy, Romance, Family",26.0,111.0,108.2,161.2,6.4,Walt Disney Pictures,Training,Yes
-Bubble Boy,2001-08-24,2001,PG-13,Comedy,13.0,84.0,5.0,7.5,5.6,Bandeira Entertainment,Training,Yes
-Max Keeble's Big Move,2001-10-05,2001,PG,"Comedy, Crime, Family",25.0,86.0,17.3,25.7,5.4,Walt Disney Pictures,Training,Yes
-Corky Romano,2001-10-12,2001,PG-13,Comedy,11.0,86.0,24.0,35.7,4.7,Touchstone Pictures,Training,Yes
-High Heels and Low Lifes,2001-10-26,2001,R,,,,0.2,0.3,,,Training,No (no budget data)
-"Monsters, Inc.",2001-11-02,2001,G,"Animation, Comedy, Family, Fantasy",115.0,92.0,289.4,416.1,8.1,Pixar Animation Studios,Training,Yes
-Out Cold,2001-11-21,2001,PG-13,Comedy,24.0,89.0,13.9,20.7,6.3,Touchstone Pictures,Training,Yes
-The Royal Tenenbaums,2001-12-14,2001,R,Black Comedy,21.0,110.0,52.4,76.8,7.6,Touchstone Pictures,Training,Yes
-Frank McKlusky C.I.,2002-01-01,2002,Not available,,,,0.0,0.0,,,Training,No (no budget data)
-Beauty and the Beast (IMAX),2002-01-01,2002,G,Musical,,,25.5,37.0,,,Training,No (no budget data)
-Snow Dogs,2002-01-18,2002,PG,"Comedy, Family, Action, Sport",33.0,99.0,81.2,117.7,5.2,Walt Disney Pictures,Training,Yes
-The Count of Monte Cristo,2002-01-25,2002,PG-13,Drama,35.0,131.0,54.2,78.7,7.7,Touchstone Pictures,Training,Yes
-Peter Pan: Return to Neverland,2002-02-15,2002,G,Adventure,,,48.4,70.3,,,Training,No (no budget data)
-Reign of Fire,2002-02-19,2002,PG-13,Action,60.0,101.0,43.1,62.5,6.2,Touchstone Pictures,Training,Yes
-Sorority Boys,2002-03-22,2002,R,Comedy,12.0,93.0,10.2,14.8,5.5,"Morra, Brezner, Steinberg and Tenenbaum Entertainment (MBST)",Training,Yes
-The Rookie,2002-03-29,2002,G,"Drama, Family, Sport",22.0,127.0,75.6,109.7,6.9,98 MPH Productions,Training,Yes
-Big Trouble,2002-04-05,2002,PG-13,Comedy,40.0,85.0,7.3,10.5,6.5,Touchstone Pictures,Training,Yes
-ESPN's Ultimate X - The Movie,2002-05-10,2002,PG,Documentary,,,4.2,6.1,,,Training,No (no budget data)
-Bad Company,2002-06-07,2002,PG-13,Action,70.0,116.0,30.2,43.8,5.6,Touchstone Pictures,Training,Yes
-Lilo & Stitch,2002-06-21,2002,PG,"Animation, Comedy, Drama, Family, Fantasy, Scifi",80.0,92.0,145.8,211.5,7.3,Walt Disney Pictures,Training,Yes
-The Country Bears,2002-07-26,2002,G,"Comedy, Documentation, Family, Music",35.0,88.0,17.0,24.7,4.2,Walt Disney Pictures,Testing,Yes
-Signs,2002-08-02,2002,PG-13,Thriller/Suspense,72.0,106.0,228.0,330.8,6.7,Touchstone Pictures,Training,Yes
-Sen to Chihiro no Kamikakushi,2002-09-20,2002,PG,Adventure,,,10.0,14.3,,,Training,No (no budget data)
-Moonlight Mile,2002-09-27,2002,PG-13,Drama,21.0,117.0,6.8,9.9,6.6,Touchstone Pictures,Training,Yes
-Sweet Home Alabama,2002-09-27,2002,PG-13,Comedy,30.0,108.0,127.2,184.5,6.2,Touchstone Pictures,Training,Yes
-Tuck Everlasting,2002-10-11,2002,PG,"Drama, Fantasy, Romance, Family",15.0,90.0,19.2,27.8,6.6,Walt Disney Pictures,Training,Yes
-The Santa Clause 2,2002-11-01,2002,G,"Comedy, Fantasy, Family",65.0,104.0,139.2,202.0,5.7,Walt Disney Pictures,Testing,Yes
-Treasure Planet,2002-11-27,2002,PG,"Fantasy, Scifi, Animation, Family",140.0,95.0,38.1,55.2,7.2,Walt Disney Animation Studios,Training,Yes
-The Hot Chick,2002-12-13,2002,PG-13,Comedy,,104.0,35.1,50.6,5.5,Touchstone Pictures,Training,No (no budget data)
-25th Hour,2002-12-19,2002,R,Drama,5.0,135.0,13.1,18.3,7.6,25th Hour Productions,Training,Yes
-The Recruit,2003-01-31,2003,PG-13,Thriller/Suspense,46.0,115.0,52.8,73.8,6.6,Touchstone Pictures,Training,Yes
-Shanghai Knights,2003-02-07,2003,PG-13,Adventure,50.0,114.0,60.5,84.5,6.2,Touchstone Pictures,Training,Yes
-The Jungle Book 2,2003-02-14,2003,G,"Animation, Comedy, Family, Fantasy",20.0,72.0,47.9,67.0,5.4,Disney Television Animation,Testing,Yes
-Bringing Down the House,2003-03-07,2003,PG-13,Comedy,33.0,105.0,132.7,185.5,5.6,Touchstone Pictures,Testing,Yes
-Piglet's Big Movie,2003-03-21,2003,G,"Animation, Family, Comedy",,,23.1,32.3,,,Training,No (no budget data)
-Ghosts of the Abyss,2003-04-11,2003,G,Documentary,,,17.1,23.8,,,Training,No (no budget data)
-Holes,2003-04-18,2003,PG,"Comedy, Drama, Family",20.0,117.0,67.4,94.2,7.0,Walt Disney Pictures,Training,Yes
-The Lizzie McGuire Movie,2003-05-02,2003,PG,"Family, Comedy, Music, Romance",17.0,94.0,42.7,59.7,5.5,Walt Disney Pictures,Training,Yes
-Finding Nemo,2003-05-30,2003,G,"Animation, Family, Comedy",94.0,100.0,380.5,518.1,8.1,Pixar Animation Studios,Training,Yes
-Pirates of the Caribbean: The Curse o…,2003-07-09,2003,PG-13,Adventure,,,305.4,427.0,,,Testing,No (no budget data)
-Freaky Friday,2003-08-06,2003,PG,"Fantasy, Comedy, Family",20.0,97.0,110.2,154.1,6.2,Casual Friday Productions,Training,Yes
-Open Range,2003-08-15,2003,R,Western,22.0,139.0,58.3,81.5,7.4,Touchstone Pictures,Testing,Yes
-Cold Creek Manor,2003-09-19,2003,R,Thriller/Suspense,,118.0,21.4,29.9,5.0,Touchstone Pictures,Training,No (no budget data)
-Under the Tuscan Sun,2003-09-26,2003,PG-13,Comedy,18.0,113.0,43.6,60.9,6.8,Touchstone Pictures,Testing,Yes
-Veronica Guerin,2003-10-17,2003,R,Drama,17.0,98.0,1.6,2.2,6.9,Touchstone Pictures,Training,Yes
-Brother Bear,2003-10-24,2003,G,"Animation, Fantasy, Comedy, Drama, Family",128.0,85.0,85.3,119.2,6.8,Walt Disney Animation Studios,Testing,Yes
-The Haunted Mansion,2003-11-26,2003,PG,"Comedy, Thriller, Fantasy, Horror, Family, Drama",90.0,88.0,75.8,105.8,5.1,Walt Disney Pictures,Training,Yes
-Calendar Girls,2003-12-19,2003,PG-13,Comedy,10.0,108.0,31.0,42.4,6.9,Touchstone Pictures,Training,Yes
-Young Black Stallion,2003-12-25,2003,G,"Drama, Family, Action",,,6.8,9.3,,,Training,No (no budget data)
-Teacher's Pet: The Movie,2004-01-16,2004,PG,Comedy,,,6.5,8.8,,,Training,No (no budget data)
-Miracle,2004-02-06,2004,PG,"Drama, History, Sport, European",28.0,135.0,64.4,87.4,7.5,Pop Pop Productions,Training,Yes
-Confessions of a Teenage Drama Queen,2004-02-20,2004,PG,"Comedy, Family, Music, Romance, European",15.0,89.0,29.3,39.8,4.7,Walt Disney Pictures,Training,Yes
-Hidalgo,2004-03-05,2004,PG-13,Western,100.0,136.0,67.3,91.3,6.7,Touchstone Pictures,Training,Yes
-The Ladykillers,2004-03-26,2004,R,Comedy,35.0,104.0,39.7,53.9,6.2,Touchstone Pictures,Training,Yes
-Home on the Range,2004-04-02,2004,PG,"Animation, Western, Music, Comedy, Family",110.0,76.0,50.0,67.9,5.4,Walt Disney Pictures,Training,Yes
-The Alamo,2004-04-09,2004,PG-13,Western,107.0,137.0,22.4,30.4,6.0,Touchstone Pictures,Testing,Yes
-Raising Helen,2004-05-28,2004,PG-13,Comedy,50.0,119.0,37.5,50.9,6.0,Touchstone Pictures,Training,Yes
-Around the World in 80 Days,2004-06-16,2004,PG,"Comedy, Family, Western, Action",110.0,120.0,24.0,32.6,5.9,Walt Disney Pictures,Training,Yes
-America's Heart and Soul,2004-07-02,2004,Not Rated,"Documentation, Family",,,0.3,0.4,,,Training,No (no budget data)
-King Arthur,2004-07-07,2004,PG-13,Adventure,120.0,126.0,51.9,70.4,6.3,Touchstone Pictures,Training,Yes
-The Village,2004-07-30,2004,PG-13,Thriller/Suspense,60.0,108.0,114.2,155.0,6.5,Touchstone Pictures,Testing,Yes
-The Princess Diaries 2: Royal Engagement,2004-08-11,2004,G,"Romance, Comedy, Family",40.0,113.0,95.1,129.2,5.8,Walt Disney Pictures,Training,Yes
-Mr. 3000,2004-09-17,2004,PG-13,Comedy,,,21.8,29.6,,,Training,No (no budget data)
-The Last Shot,2004-09-24,2004,R,Comedy,,,0.5,0.6,,,Testing,No (no budget data)
-Ladder 49,2004-10-01,2004,PG-13,Action,55.0,115.0,74.5,101.2,6.5,Touchstone Pictures,Training,Yes
-The Incredibles,2004-11-05,2004,PG,"Animation, Action, Family",92.0,115.0,261.4,354.5,8.0,Pixar Animation Studios,Training,Yes
-National Treasure,2004-11-19,2004,PG,"Thriller, Action, Western, Family",100.0,131.0,173.0,234.1,6.9,Walt Disney Pictures,Training,Yes
-The Life Aquatic with Steve Zissou,2004-12-10,2004,R,Comedy,50.0,119.0,24.0,32.2,7.3,Touchstone Pictures,Testing,Yes
-Aliens of the Deep,2005-01-28,2005,G,"Documentation, Family",,,9.0,11.7,,,Training,No (no budget data)
-Pooh's Heffalump Movie,2005-02-11,2005,G,"Fantasy, Animation, Comedy, Family",,,18.1,23.8,,,Training,No (no budget data)
-The Pacifier,2005-03-04,2005,PG,"Comedy, Drama, Family, Action",56.0,95.0,113.0,148.6,5.6,Walt Disney Pictures,Training,Yes
-Ice Princess,2005-03-18,2005,G,"Drama, Comedy, Family, Sport",,98.0,24.4,32.1,6.0,Walt Disney Pictures,Testing,No (no budget data)
-A Lot Like Love,2005-04-22,2005,PG-13,Comedy,30.0,107.0,21.8,28.7,6.6,Touchstone Pictures,Testing,Yes
-The Hitchhiker's Guide to the Galaxy,2005-04-29,2005,PG,Comedy,50.0,109.0,51.0,67.1,6.7,Touchstone Pictures,Training,Yes
-Hauru no ugoku shiro,2005-06-10,2005,PG,Adventure,,,4.7,6.2,,,Training,No (no budget data)
-Herbie: Fully Loaded,2005-06-22,2005,G,Comedy,50.0,101.0,66.0,86.8,4.8,Walt Disney Pictures,Training,Yes
-Dark Water,2005-07-08,2005,PG-13,Thriller/Suspense,30.0,105.0,25.5,33.5,5.6,Touchstone Pictures,Training,Yes
-Sky High,2005-07-29,2005,PG,"Comedy, Family, Scifi, Action",35.0,100.0,63.9,84.1,6.2,Walt Disney Pictures,Training,Yes
-Valiant,2005-08-19,2005,G,"Comedy, Animation, Family, War",35.0,76.0,19.5,25.6,5.5,Vanguard Films and Animation,Training,Yes
-Flightplan,2005-09-23,2005,PG-13,Thriller/Suspense,55.0,98.0,89.7,118.0,6.3,Touchstone Pictures,Training,Yes
-The Greatest Game Ever Played,2005-09-30,2005,PG,"Drama, Sport, History",26.0,120.0,15.3,20.2,7.4,Fairway Films,Training,Yes
-Shopgirl,2005-10-21,2005,R,Drama,,,10.3,13.5,,,Testing,No (no budget data)
-Chicken Little,2005-11-04,2005,G,"Comedy, Family, Fantasy, Scifi, Animation",150.0,81.0,135.4,178.0,5.7,Walt Disney Pictures,Training,Yes
-"The Chronicles of Narnia: The Lion, t…",2005-12-09,2005,PG,Adventure,,,291.7,381.6,,,Training,No (no budget data)
-Casanova,2005-12-25,2005,R,Drama,,112.0,11.3,14.6,6.5,Touchstone Pictures,Training,No (no budget data)
-Glory Road,2006-01-13,2006,PG,"History, Drama, Sport",,118.0,42.6,54.9,7.2,Walt Disney Pictures,Training,No (no budget data)
-Roving Mars,2006-01-27,2006,G,Documentation,,,10.4,12.9,,,Training,No (no budget data)
-Annapolis,2006-01-27,2006,PG-13,Drama,,,17.1,22.0,,,Training,No (no budget data)
-Eight Below,2006-02-17,2006,PG,"Drama, Family",40.0,120.0,81.6,105.0,7.3,Walt Disney Pictures,Training,Yes
-The Shaggy Dog,2006-03-10,2006,PG,"Comedy, Fantasy, Family",,,61.1,78.7,,,Testing,No (no budget data)
-Stay Alive,2006-03-24,2006,PG-13,Horror,7.0,85.0,23.1,29.7,5.1,Hollywood Pictures,Training,Yes
-The Wild,2006-04-14,2006,G,"Animation, Comedy, Family",80.0,82.0,37.4,48.1,5.2,C.O.R.E. Feature Animation,Training,Yes
-Stick It,2006-04-28,2006,PG-13,Comedy,,103.0,26.9,34.6,6.4,Kaltenbach Pictures,Training,No (no budget data)
-Goal! The Dream Begins,2006-05-12,2006,PG,Drama,10.0,118.0,4.3,5.5,6.7,Milkshake Films,Training,Yes
-Cars,2006-06-09,2006,G,"Comedy, Family, Animation, Action, Sport",120.0,117.0,244.1,314.1,7.1,Pixar Animation Studios,Training,Yes
-Pirates of the Caribbean: Dead Man’…,2006-07-07,2006,PG-13,Adventure,,,423.3,544.8,,,Training,No (no budget data)
-Step Up,2006-08-11,2006,PG-13,Drama,12.0,104.0,65.3,84.1,6.5,Touchstone Pictures,Training,Yes
-Invincible,2006-08-25,2006,PG,"Drama, Sport",40.0,105.0,57.8,74.4,7.1,Walt Disney Pictures,Training,Yes
-The Guardian,2006-09-29,2006,PG-13,Action,70.0,139.0,55.0,70.8,6.9,Touchstone Pictures,Training,Yes
-The Prestige,2006-10-20,2006,PG-13,Thriller/Suspense,40.0,130.0,53.1,68.3,8.5,Touchstone Pictures,Training,Yes
-Tim Burton's The Nightmare Before Chr…,2006-10-20,2006,PG,Musical,,,24.7,30.7,,,Training,No (no budget data)
-The Santa Clause 3: The Escape Clause,2006-11-03,2006,G,"Comedy, Family, Fantasy",12.0,92.0,84.5,108.7,4.8,Walt Disney Pictures,Training,Yes
-Déjà Vu,2006-11-22,2006,PG-13,Thriller/Suspense,,,64.0,82.3,,,Training,No (no budget data)
-Apocalypto,2006-12-08,2006,R,Adventure,40.0,139.0,50.9,65.0,7.8,Icon Productions,Training,Yes
-Primeval,2007-01-12,2007,R,Adventure,,93.0,10.6,13.0,4.8,Hollywood Pictures,Training,No (no budget data)
-Bridge to Terabithia,2007-02-16,2007,PG,Drama,17.0,96.0,82.2,100.8,7.1,Walden Media,Training,Yes
-Wild Hogs,2007-03-02,2007,PG-13,Comedy,,100.0,168.2,206.1,5.8,Touchstone Pictures,Training,No (no budget data)
-Meet the Robinsons,2007-03-30,2007,G,"Comedy, Animation, Family, Scifi, Drama, Music, Fantasy",150.0,95.0,97.8,119.9,6.8,Walt Disney Animation Studios,Training,Yes
-The Lookout,2007-03-30,2007,R,Drama,16.0,99.0,4.6,5.6,7.0,Miramax,Testing,Yes
-The Hoax,2007-04-06,2007,R,Drama,,,7.2,8.8,,,Testing,No (no budget data)
-The Invisible,2007-04-27,2007,PG-13,Thriller/Suspense,30.0,102.0,20.6,25.2,6.2,Hollywood Pictures,Training,Yes
-Pirates of the Caribbean: At World’…,2007-05-24,2007,PG-13,Adventure,,,309.4,379.1,,,Training,No (no budget data)
-Ratatouille,2007-06-29,2007,G,"Fantasy, Animation, Comedy, Family, Drama",150.0,111.0,206.4,253.0,8.0,Walt Disney Pictures,Testing,Yes
-Underdog,2007-08-03,2007,PG,"Fantasy, Scifi, Action, Comedy, Family",,84.0,43.8,53.6,4.8,Have No Fear Productions,Testing,No (no budget data)
-The Game Plan,2007-09-22,2007,PG,"Comedy, Family, Sport",22.0,110.0,90.6,111.0,6.1,Walt Disney Pictures,Training,Yes
-Dan in Real Life,2007-10-20,2007,PG-13,"Romance, Comedy, Drama",25.0,98.0,47.6,58.4,6.7,Touchstone Pictures,Testing,Yes
-Enchanted,2007-11-21,2007,PG,"Comedy, Family, Fantasy, Romance, Animation",85.0,107.0,127.7,156.1,7.0,Walt Disney Pictures,Training,Yes
-National Treasure 2: Book of Secrets,2007-12-21,2007,PG,Adventure,,,220.0,267.0,,,Training,No (no budget data)
-Hannah Montana/Miley Cyrus: Best of B…,2008-02-01,2008,G,Concert/Performance,,,65.3,76.6,,,Training,No (no budget data)
-Step Up 2 the Streets,2008-02-14,2008,PG-13,Drama,17.5,98.0,58.0,68.1,6.2,Touchstone Pictures,Training,Yes
-College Road Trip,2008-03-07,2008,G,"Comedy, Drama, Family",,,45.6,53.6,,,Testing,No (no budget data)
-The Chronicles of Narnia: Prince Caspian,2008-05-16,2008,PG,"Fantasy, Action, Family, European",225.0,150.0,141.6,166.3,6.5,Walt Disney Pictures,Training,Yes
-WALL-E,2008-06-27,2008,G,Adventure,180.0,98.0,223.8,262.8,8.4,FortyFour Studios,Training,Yes
-Swing Vote,2008-08-01,2008,PG-13,Comedy,,,16.3,19.1,,,Training,No (no budget data)
-Goal! 2: Living the Dream...,2008-08-29,2008,PG-13,Drama,,,0.2,0.3,,,Training,No (no budget data)
-Miracle at St. Anna,2008-09-26,2008,R,Drama,,,7.9,9.3,,,Testing,No (no budget data)
-Beverly Hills Chihuahua,2008-10-03,2008,PG,"Romance, Comedy, Family, Thriller, Animation, Drama, Action",20.0,91.0,94.5,110.9,3.8,Mandeville Films,Training,Yes
-Morning Light,2008-10-17,2008,PG,"Documentation, Sport, Drama",,,0.3,0.3,,,Training,No (no budget data)
-High School Musical 3: Senior Year,2008-10-24,2008,G,"Romance, Drama, Family, Music, Comedy",11.0,112.0,90.6,106.3,4.9,Walt Disney Pictures,Testing,Yes
-Bolt,2008-11-21,2008,PG,"Animation, Comedy, Crime, Drama, Family, Scifi, Fantasy",150.0,96.0,114.1,133.7,6.8,Walt Disney Animation Studios,Testing,Yes
-Bedtime Stories,2008-12-25,2008,PG,"Fantasy, Romance, Scifi, Comedy, Family",80.0,99.0,110.1,128.0,6.0,Walt Disney Pictures,Testing,Yes
-Confessions of a Shopaholic,2009-02-13,2009,PG,"Romance, Comedy",,104.0,44.3,49.8,5.9,Touchstone Pictures,Training,No (no budget data)
-Jonas Brothers: The 3D Concert Experi…,2009-02-27,2009,G,Concert/Performance,,,38.2,38.2,,,Training,No (no budget data)
-Race to Witch Mountain,2009-03-13,2009,PG,"Fantasy, Thriller, Action, Family, Scifi",65.0,98.0,67.2,75.5,5.7,Walt Disney Pictures,Training,Yes
-Hannah Montana the Movie,2009-04-10,2009,G,Drama,30.0,102.0,79.6,89.4,4.6,It's a Laugh Productions,Training,Yes
-Earth,2009-04-22,2009,G,Documentary,,,32.0,36.0,,,Training,No (no budget data)
-Up,2009-05-29,2009,PG,"Comedy, Drama, Family, Animation",175.0,96.0,293.0,329.3,8.2,Pixar Animation Studios,Training,Yes
-The Proposal,2009-06-19,2009,PG-13,Romantic Comedy,40.0,108.0,164.0,184.3,6.7,Touchstone Pictures,Training,Yes
-G-Force,2009-07-24,2009,PG,"Comedy, Family, Fantasy, Scifi, Animation, Action",150.0,88.0,119.4,134.2,5.1,Jerry Bruckheimer Films,Testing,Yes
-Gake no ue no Ponyo,2009-08-14,2009,G,Adventure,,,15.1,17.0,,,Training,No (no budget data)
-X Games 3D: The Movie,2009-08-21,2009,PG,Documentary,,,1.4,1.6,,,Training,No (no budget data)
-Walt and El Grupo,2009-09-10,2009,PG,Documentary,,,0.0,0.0,,,Training,No (no budget data)
-Surrogates,2009-09-25,2009,PG-13,Action,80.0,89.0,38.6,43.4,6.3,Touchstone Pictures,Training,Yes
-Toy Story 3D Double Feature,2009-10-02,2009,G,Adventure,,,30.7,34.5,,,Training,No (no budget data)
-Disney's A Christmas Carol,2009-11-06,2009,PG,Drama,,,137.9,154.9,,,Training,No (no budget data)
-The Princess and the Frog,2009-11-25,2009,G,"Romance, Family, Fantasy, Animation, Comedy",105.0,97.0,104.4,116.3,7.1,Walt Disney Animation Studios,Testing,Yes
-Old Dogs,2009-11-25,2009,PG,Comedy,35.0,88.0,49.5,55.5,5.3,Walt Disney Pictures,Testing,Yes
-When in Rome,2010-01-29,2010,PG-13,Romantic Comedy,55.0,91.0,32.7,34.9,5.6,Touchstone Pictures,Training,Yes
-Alice in Wonderland,2010-03-05,2010,PG,"Fantasy, Family, Animation, Comedy",200.0,108.0,334.2,357.1,6.4,Walt Disney Pictures,Training,Yes
-Waking Sleeping Beauty,2010-03-26,2010,PG,"Documentation, Drama, History",,,0.1,0.1,,,Training,No (no budget data)
-The Last Song,2010-03-31,2010,PG,"Romance, Drama, Music",20.0,107.0,63.0,67.3,6.0,Touchstone Pictures,Training,Yes
-Oceans,2010-04-22,2010,G,"Documentation, Family, Drama, European",,,19.4,20.8,,,Training,No (no budget data)
-Prince of Persia: Sands of Time,2010-05-28,2010,PG-13,Action,,,90.8,97.0,,,Testing,No (no budget data)
-Toy Story 3,2010-06-18,2010,G,"Comedy, Animation, Family, Fantasy",200.0,103.0,415.0,443.4,8.2,Walt Disney Pictures,Training,Yes
-The Sorcerer's Apprentice,2010-07-14,2010,PG,"Fantasy, Action, Family, European",150.0,109.0,63.2,67.5,6.1,Walt Disney Pictures,Training,Yes
-Step Up 3D,2010-08-06,2010,PG-13,Drama,,,42.4,45.3,,,Training,No (no budget data)
-Gedo Senki (Tales from Earthsea),2010-08-13,2010,PG-13,Adventure,,,0.0,0.1,,,Training,No (no budget data)
-You Again,2010-09-24,2010,PG,"Comedy, Romance",20.0,105.0,25.7,27.5,5.8,Touchstone Pictures,Training,Yes
-Secretariat,2010-10-08,2010,PG,"Drama, Documentation, Family, History, Sport",35.0,123.0,59.7,63.8,7.2,Walt Disney Pictures,Testing,Yes
-Tangled,2010-11-24,2010,PG,"Animation, Romance, Comedy, Family, Fantasy",260.0,100.0,200.8,214.4,7.7,Walt Disney Animation Studios,Training,Yes
-Tron: Legacy,2010-12-17,2010,PG,Adventure,170.0,125.0,172.1,183.6,6.8,Walt Disney Pictures,Training,Yes
-Gnomeo and Juliet,2011-02-11,2011,G,Comedy,,,100.0,106.3,,,Training,No (no budget data)
-I am Number Four,2011-02-18,2011,PG-13,Adventure,60.0,111.0,55.1,58.6,6.1,Dreamworks Pictures,Testing,Yes
-Mars Needs Moms,2011-03-11,2011,PG,"Animation, Action, Family, Scifi",,,21.4,22.7,,,Training,No (no budget data)
-African Cats,2011-04-22,2011,G,"Documentation, Action",,,15.4,16.4,,,Testing,No (no budget data)
-Zokkomon,2011-04-22,2011,PG,Adventure,,,0.0,0.0,,,Training,No (no budget data)
-Prom,2011-04-29,2011,PG,"Comedy, Drama, Family, Romance",,,10.1,10.8,,,Training,No (no budget data)
-Pirates of the Caribbean: On Stranger…,2011-05-20,2011,PG-13,Adventure,,,241.1,256.3,,,Testing,No (no budget data)
-Cars 2,2011-06-24,2011,G,"Animation, Fantasy, Comedy, Family, Sport, Drama, Crime, Scifi",200.0,106.0,191.5,203.5,6.1,Walt Disney Pictures,Training,Yes
-Winnie the Pooh,2011-07-15,2011,G,"Animation, Family, Fantasy, Comedy, Drama, European",30.0,63.0,26.7,28.4,7.2,Walt Disney Pictures,Training,Yes
-The Help,2011-08-10,2011,PG-13,Drama,25.0,146.0,169.7,180.4,8.0,DreamWorks,Training,Yes
-Fright Night,2011-08-19,2011,R,Horror,30.0,106.0,18.3,19.5,6.4,Dreamworks Pictures,Training,Yes
-Real Steel,2011-10-07,2011,PG-13,Action,110.0,127.0,85.5,90.8,7.0,Dreamworks Pictures,Training,Yes
-The Muppets,2011-11-23,2011,PG,"Comedy, Family",45.0,103.0,88.6,94.2,7.1,Walt Disney Pictures,Training,Yes
-War Horse,2011-12-25,2011,PG-13,Drama,66.0,146.0,79.9,84.8,7.2,Dreamworks Pictures,Training,Yes
-The Secret World of Arietty,2012-02-17,2012,G,Adventure,,,19.2,20.3,,,Training,No (no budget data)
-John Carter,2012-03-09,2012,PG-13,"Scifi, Action, European",250.0,132.0,73.1,77.4,6.6,Walt Disney Pictures,Training,Yes
-Chimpanzee,2012-04-20,2012,G,"Documentation, Family",,,29.0,30.7,,,Training,No (no budget data)
-The Avengers,2012-05-04,2012,PG-13,"Scifi, Action",220.0,143.0,623.3,660.1,8.0,Marvel Studios,Training,Yes
-Brave,2012-06-22,2012,PG,"Comedy, Fantasy, Animation, Family",185.0,93.0,237.3,251.3,7.1,Walt Disney Pictures,Training,Yes
-People Like Us,2012-06-29,2012,PG-13,Drama,16.0,114.0,12.4,13.2,7.1,Dreamworks Pictures,Testing,Yes
-The Odd Life of Timothy Green,2012-08-15,2012,PG,"Fantasy, Drama, Comedy, Family",25.0,105.0,51.9,54.9,6.6,Monsterfoot Productions,Training,Yes
-Frankenweenie,2012-10-05,2012,PG,Scifi,39.0,87.0,35.3,37.4,6.9,Walt Disney Pictures,Training,Yes
-Wreck-It Ralph,2012-11-02,2012,PG,"Comedy, Animation, Family, Fantasy, Scifi",165.0,101.0,189.4,200.4,7.7,Walt Disney Animation Studios,Training,Yes
-Lincoln,2012-11-09,2012,PG-13,Drama,65.0,150.0,182.2,192.1,7.3,Dreamworks Pictures,Training,Yes
-Oz the Great and Powerful,2013-03-08,2013,PG,Adventure,215.0,130.0,234.8,243.4,6.3,Walt Disney Pictures,Training,Yes
-Iron Man 3,2013-05-03,2013,PG-13,"Action, Scifi",200.0,130.0,409.0,424.1,7.1,Marvel Studios,Testing,Yes
-Monsters University,2013-06-21,2013,G,"Animation, Comedy, Family, Fantasy, Horror",200.0,104.0,268.5,278.4,7.2,Walt Disney Pictures,Training,Yes
-The Lone Ranger,2013-07-02,2013,PG-13,Western,215.0,150.0,89.3,92.6,6.4,Walt Disney Pictures,Training,Yes
-Disney Planes,2013-08-09,2013,PG,Comedy,,,90.3,93.6,,,Training,No (no budget data)
-The Fifth Estate,2013-10-18,2013,R,Drama,28.0,128.0,3.3,3.4,6.2,Dreamworks Pictures,Training,Yes
-Kaze Tachinu,2013-11-08,2013,PG-13,Drama,,,5.2,5.4,,,Training,No (no budget data)
-Thor: The Dark World,2013-11-08,2013,PG-13,"Fantasy, Action, Scifi",170.0,112.0,206.4,214.0,6.8,Marvel Studios,Training,Yes
-Delivery Man,2013-11-22,2013,PG-13,Comedy,26.0,105.0,30.7,31.8,6.4,Dreamworks Pictures,Training,Yes
-Frozen,2013-11-22,2013,PG,"Fantasy, Comedy, Family, Animation",150.0,102.0,400.7,415.0,7.4,Walt Disney Animation Studios,Testing,Yes
-Saving Mr. Banks,2013-12-13,2013,PG-13,"Drama, Comedy, Music",35.0,125.0,83.3,86.2,7.5,Walt Disney Pictures,Training,Yes
-Need for Speed,2014-03-14,2014,PG-13,Action,66.0,132.0,43.6,45.0,6.4,Dreamworks Pictures,Training,Yes
-Muppets Most Wanted,2014-03-21,2014,PG,"Crime, Comedy, Family",50.0,107.0,51.2,52.8,6.4,Walt Disney Pictures,Training,Yes
-Captain America: The Winter Soldier,2014-04-04,2014,PG-13,"Scifi, Thriller, Action",170.0,136.0,259.7,268.0,7.7,Marvel Entertainment,Training,Yes
-Bears,2014-04-18,2014,G,"Documentation, Family",,,17.8,18.3,,,Training,No (no budget data)
-Million Dollar Arm,2014-05-10,2014,PG,Drama,25.0,124.0,36.4,37.6,7.0,Walt Disney Pictures,Training,Yes
-Maleficent,2014-05-30,2014,PG,Adventure,180.0,97.0,241.4,249.1,7.0,Jolie Pas,Training,Yes
-Planes: Fire and Rescue,2014-07-18,2014,PG,Adventure,,,59.2,61.0,,,Training,No (no budget data)
-Guardians of the Galaxy,2014-08-01,2014,PG-13,"Action, Comedy, Scifi",170.0,121.0,333.2,343.8,8.0,Marvel Studios,Training,Yes
-The Hundred-Foot Journey,2014-08-08,2014,PG,Romantic Comedy,22.0,122.0,54.2,56.0,7.3,Amblin Entertainment,Training,Yes
-"Alexander and the Terrible, Horrible,…",2014-10-10,2014,PG,Comedy,,,67.0,69.1,,,Training,No (no budget data)
-Big Hero 6,2014-11-07,2014,PG,"Animation, Action, Comedy, Family, Scifi, Drama",165.0,102.0,222.5,229.2,7.8,FortyFour Studios,Training,Yes
-Into the Woods,2014-12-25,2014,PG,"Fantasy, Comedy, Drama",50.0,125.0,128.0,130.9,5.9,BBL Motion Picture Studios,Training,Yes
-Strange Magic,2015-01-23,2015,PG,"Fantasy, Comedy, Family, Romance, Animation",,99.0,12.4,12.4,5.8,Buena Vista Negative Cutting,Training,No (no budget data)
-"McFarland, USA",2015-02-20,2015,PG,"Drama, Sport",17.0,129.0,44.5,44.5,7.4,Mayhem Pictures,Training,Yes
-Cinderella,2015-03-13,2015,PG,"Fantasy, Animation, Family, Romance",95.0,105.0,201.2,201.2,6.9,Allison Shearmur Productions,Training,Yes
-Monkey Kingdom,2015-04-17,2015,G,Documentation,,,16.4,16.4,,,Training,No (no budget data)
-Avengers: Age of Ultron,2015-05-01,2015,PG-13,"Scifi, Action, Comedy",250.0,141.0,459.0,459.0,7.3,Marvel Studios,Training,Yes
-Tomorrowland,2015-05-22,2015,PG,Adventure,190.0,130.0,93.4,93.4,6.4,Walt Disney Pictures,Training,Yes
-Inside Out,2015-06-19,2015,PG,"Comedy, Drama, Animation, Family, Fantasy, Scifi",175.0,95.0,356.5,356.5,8.1,Pixar Animation Studios,Training,Yes
-Ant-Man,2015-07-17,2015,PG-13,"Scifi, Comedy, Crime, Action",130.0,117.0,180.2,180.2,7.3,Gary Sanchez Productions,Training,Yes
-Bridge of Spies,2015-10-16,2015,PG-13,Thriller/Suspense,40.0,142.0,72.3,72.3,7.6,Dreamworks Pictures,Testing,Yes
-The Good Dinosaur,2015-11-25,2015,PG,"Animation, Fantasy, Comedy, Drama, Family",200.0,93.0,123.1,123.1,6.7,Pixar Animation Studios,Training,Yes
-Star Wars Ep. VII: The Force Awakens,2015-12-18,2015,PG-13,Adventure,,,936.7,936.7,,,Testing,No (no budget data)
-The Finest Hours,2016-01-29,2016,PG,"Thriller, Action, Drama, History",80.0,117.0,27.6,27.6,6.8,Walt Disney Pictures,Training,Yes
-Zootopia,2016-03-04,2016,PG,"Comedy, Crime, Animation, Action, Family",150.0,108.0,341.3,341.3,8.0,Walt Disney Pictures,Training,Yes
-The Jungle Book,2016-04-15,2016,PG,"Animation, Fantasy, Comedy, Family",175.0,106.0,364.0,364.0,7.4,Fairview Entertainment,Training,Yes
-A Beautiful Planet,2016-04-29,2016,G,Documentary,,,7.9,7.9,,,Training,No (no budget data)
-Captain America: Civil War,2016-05-06,2016,PG-13,"Action, Scifi",250.0,147.0,408.1,408.1,7.8,Marvel Studios,Training,Yes
-Alice Through the Looking Glass,2016-05-27,2016,PG,"Fantasy, European",170.0,113.0,77.0,77.0,6.2,Walt Disney Pictures,Training,Yes
-Finding Dory,2016-06-17,2016,PG,"Comedy, Family, Drama, Animation",200.0,97.0,486.3,486.3,7.3,Pixar Animation Studios,Training,Yes
-The BFG,2016-07-01,2016,PG,Adventure,140.0,117.0,55.5,55.5,6.4,Walt Disney Pictures,Training,Yes
-Pete’s Dragon,2016-08-12,2016,PG,Adventure,65.0,102.0,76.2,76.2,6.7,Walt Disney Pictures,Testing,Yes
-The Light Between Oceans,2016-09-02,2016,PG-13,Drama,20.0,133.0,12.5,12.5,7.2,Heyday Films,Training,Yes
-Queen of Katwe,2016-09-23,2016,PG,"Drama, Sport",,,8.9,8.9,,,Training,No (no budget data)
-Doctor Strange,2016-11-04,2016,PG-13,"Fantasy, Action, Scifi",165.0,115.0,232.5,232.5,7.5,Marvel Studios,Testing,Yes
-Moana,2016-11-23,2016,PG,"Action, Comedy, Family, Animation, Fantasy",150.0,107.0,246.1,246.1,7.6,Hurwitz Creative,Training,Yes
-Rogue One: A Star Wars Story,2016-12-16,2016,PG-13,"Scifi, Action",200.0,133.0,529.5,529.5,7.8,Lucasfilm,Training,Yes
+Movie,Release year,Rating,Genres,Budget ($ millions),Runtime (minutes),Box office ($ millions),Data split
+Splash,1984,PG,"Fantasy, Comedy, Romance",8.0,111,62.6,Training
+Down and Out in Beverly Hills,1986,R,Comedy,14.0,103,62.1,Training
+Ruthless People,1986,R,Comedy,13.0,93,71.6,Testing
+The Color of Money,1986,R,Drama,13.8,119,52.3,Training
+Good Morning Vietnam,1987,R,Comedy,13.0,121,123.9,Testing
+Beaches,1988,PG-13,Drama,20.0,123,57.0,Training
+Cocktail,1988,R,Drama,20.0,104,78.2,Training
+Ernest Saves Christmas,1988,PG,"Comedy, Family, Fantasy",6.0,95,28.2,Testing
+Oliver & Company,1988,G,"Animation, Comedy, Family",31.0,74,49.6,Training
+Who Framed Roger Rabbit?,1988,PG,Comedy,70.0,104,154.1,Training
+Blaze,1989,R,Drama,22.0,120,19.0,Training
+Dead Poets Society,1989,PG,Drama,16.4,128,95.9,Training
+Gross Anatomy,1989,PG-13,Drama,8.5,109,11.3,Training
+"Honey, I Shrunk the Kids",1989,PG,"Scifi, Family, Comedy",18.0,93,130.7,Training
+New York Stories,1989,PG,Drama,15.0,124,10.8,Training
+The Little Mermaid,1989,G,"Fantasy, Comedy, Family, Romance, Animation",40.0,83,111.5,Training
+Three Fugitives,1989,PG-13,Comedy,15.0,96,40.6,Training
+Turner & Hooch,1989,PG,"Comedy, Crime, Drama, Thriller",13.0,97,71.1,Training
+Arachnophobia,1990,PG-13,Thriller/Suspense,22.0,109,53.2,Training
+Dick Tracy,1990,PG,Action,47.0,105,103.7,Testing
+Ernest Goes to Jail,1990,PG,Comedy,9.0,81,25.0,Training
+Fire Birds,1990,PG-13,Action,22.0,85,14.8,Training
+Green Card,1990,PG-13,Romantic Comedy,12.5,107,29.8,Testing
+Mr. Destiny,1990,PG-13,Comedy,20.0,110,15.4,Training
+Pretty Woman,1990,R,Romantic Comedy,14.0,119,178.4,Testing
+Spaced Invaders,1990,PG,Comedy,3.0,100,15.0,Training
+The Rescuers Down Under,1990,G,"Fantasy, Animation, Comedy, Family, Crime, Drama",30.0,77,27.9,Training
+Beauty and the Beast,1991,G,"Fantasy, Family, Animation, Scifi, Drama, Romance",25.0,84,219.0,Training
+Billy Bathgate,1991,R,Drama,48.0,106,15.6,Training
+One Good Cop,1991,R,Action,4.0,114,11.3,Testing
+Oscar,1991,PG,Comedy,35.0,109,23.6,Training
+The Marrying Man,1991,R,Romantic Comedy,26.0,115,12.5,Training
+The Rocketeer,1991,PG,"Scifi, Family, Action",35.0,108,46.6,Training
+What About Bob?,1991,PG,Comedy,35.0,99,63.7,Testing
+White Fang,1991,PG,"Drama, Action, Animation, Family",14.0,107,34.7,Training
+1492: Conquest of Paradise,1992,PG-13,Adventure,47.0,154,7.1,Training
+3 Ninjas,1992,PG,Action,6.5,84,29.0,Training
+A Stranger Among Us,1992,PG-13,Drama,18.0,110,12.3,Training
+Aladdin,1992,G,"Fantasy, Romance, Animation, Comedy, Family",28.0,90,217.4,Testing
+Captain Ron,1992,PG-13,Comedy,24.0,100,22.5,Training
+Consenting Adults,1992,R,Drama,18.0,99,21.6,Testing
+Encino Man,1992,PG,Comedy,7.0,88,40.1,Training
+Honey I Blew Up the Kid,1992,PG,Comedy,40.0,89,58.7,Training
+Innocent Blood,1992,R,Horror,20.0,112,4.9,Training
+Medicine Man,1992,PG-13,Drama,40.0,106,44.9,Training
+Newsies,1992,PG,"Drama, Family, History",15.0,121,2.7,Testing
+Noises Off...,1992,PG-13,Comedy,12.0,101,2.3,Training
+Sister Act,1992,PG,"Comedy, Music, Crime, Family",31.0,100,139.6,Training
+The Distinguished Gentleman,1992,R,Comedy,50.0,112,46.4,Training
+The Hand That Rocks the Cradle,1992,R,Thriller/Suspense,11.7,110,88.0,Training
+The Mighty Ducks,1992,PG,"Comedy, Drama, Sport, Family",10.0,104,50.8,Training
+The Muppet Christmas Carol,1992,G,"Fantasy, Comedy, Drama, Family",12.0,85,27.3,Training
+Alive,1993,R,Adventure,32.0,120,36.3,Testing
+Aspen Extreme,1993,PG-13,Romantic Comedy,14.0,113,7.8,Training
+Cool Runnings,1993,PG,"Comedy, History, Sport, Family, European",14.0,98,68.9,Testing
+Guilty as Sin,1993,R,Thriller/Suspense,12.0,107,22.6,Training
+Hocus Pocus,1993,PG,"Fantasy, Family, Horror, Comedy, European",28.0,96,39.4,Training
+Indian Summer,1993,R,Comedy,9.0,97,14.7,Training
+Money for Nothing,1993,R,Comedy,11.0,100,1.0,Training
+Sister Act 2 Back in the Habit,1993,PG,Comedy,38.0,107,57.3,Training
+Super Mario Bros.,1993,PG,Action,48.0,104,20.8,Training
+The Adventures of Huck Finn,1993,PG,"Comedy, Drama, Family",6.5,108,24.1,Training
+The Joy Luck Club,1993,R,Drama,11.0,139,32.8,Training
+The Nightmare Before Christmas,1993,PG,"Fantasy, Family, Animation",18.0,76,50.4,Testing
+The Program,1993,R,Action,15.0,112,23.0,Training
+The Three Musketeers,1993,PG,"Comedy, European",30.0,105,53.7,Testing
+Tombstone,1993,R,Western,25.0,130,56.5,Training
+What's Love Got to Do With It,1993,R,Drama,15.0,118,39.1,Training
+3 Ninjas Kick Back,1994,PG,Action,20.0,93,11.7,Training
+A Low Down Dirty Shame,1994,R,Action,10.0,108,29.3,Training
+Angels in the Outfield,1994,PG,Comedy,24.0,102,50.2,Training
+Cabin Boy,1994,PG-13,Comedy,9.0,80,3.5,Testing
+Color of Night,1994,R,Thriller/Suspense,40.0,121,19.8,Training
+Ed Wood,1994,R,Comedy,18.0,127,5.8,Testing
+I Love Trouble,1994,PG,Romantic Comedy,45.0,123,30.8,Training
+Quiz Show,1994,PG-13,Drama,31.0,133,24.8,Testing
+Renaissance Man,1994,PG-13,Comedy,40.0,128,24.2,Training
+Squanto: A Warrior's Tale,1994,PG,"Action, Drama, Family",19.2,102,3.3,Testing
+Terminal Velocity,1994,PG-13,Action,50.0,102,16.5,Training
+The Air Up There,1994,PG,Comedy,17.1,107,20.8,Training
+The Jungle Book,1994,PG,"Animation, Fantasy, Comedy, Family",27.0,111,44.3,Training
+The Lion King,1994,G,"Drama, Family, Animation",45.0,88,422.8,Training
+The Ref,1994,R,Comedy,11.0,96,11.3,Training
+The Santa Clause,1994,PG,"Comedy, Drama, Family, Fantasy",22.0,97,144.8,Training
+A Goofy Movie,1995,G,"Animation, Comedy, Family, Romance",18.0,78,35.3,Training
+A Kid in King Arthur's Court,1995,PG,"Comedy, Romance, Family, Fantasy",15.0,89,13.4,Testing
+Bad Company,1995,R,Thriller/Suspense,15.0,108,3.5,Training
+Crimson Tide,1995,R,Action,53.0,116,91.4,Training
+Dangerous Minds,1995,R,Drama,23.0,99,84.9,Training
+Dead Presidents,1995,R,Drama,10.0,119,24.1,Training
+Father of the Bride Part II,1995,PG,Comedy,30.0,106,76.6,Training
+Houseguest,1995,PG,Comedy,10.5,113,26.3,Training
+Jefferson in Paris,1995,PG-13,Drama,14.0,139,2.5,Training
+Judge Dredd,1995,R,Action,90.0,96,34.7,Training
+Mr. Holland's Opus,1995,PG,"Drama, Music",23.0,143,82.6,Training
+Nixon,1995,R,Drama,44.0,192,13.7,Training
+Pocahontas,1995,G,"Romance, Animation, Drama, Family, European",55.0,81,141.6,Training
+Powder,1995,PG-13,Drama,9.5,111,30.8,Training
+Tall Tale,1995,PG,"Western, Family, Fantasy",32.0,96,8.2,Training
+The Big Green,1995,PG,"Action, Comedy, Family, Sport",12.0,100,17.7,Training
+The Scarlet Letter,1995,R,Drama,46.0,135,10.4,Training
+Toy Story,1995,G,"Comedy, Family, Fantasy, Animation",30.0,81,191.8,Training
+While You Were Sleeping,1995,PG,"Romance, Comedy, Drama",17.0,103,81.1,Testing
+101 Dalmatians,1996,G,"Comedy, Crime, Family",75.0,103,136.2,Testing
+Before and After,1996,PG-13,Drama,35.0,108,8.6,Testing
+Eddie,1996,PG-13,Comedy,30.0,100,31.4,Training
+Evita,1996,PG,Musical,55.0,135,50.0,Training
+Jack,1996,PG-13,"Comedy, Drama, Fantasy",45.0,113,58.6,Training
+James and the Giant Peach,1996,PG,"Fantasy, Animation, Family",38.0,79,28.9,Training
+Kazaam,1996,PG,"Fantasy, Comedy, Family",20.0,93,18.9,Training
+Phenomenon,1996,PG,Drama,32.0,123,104.6,Testing
+Ransom,1996,R,Action,80.0,121,136.5,Training
+Spy Hard,1996,PG-13,Comedy,18.0,81,26.9,Training
+The Hunchback of Notre Dame,1996,G,"Animation, Family, Drama, Romance",100.0,91,100.1,Training
+The Preacher's Wife,1996,PG,Drama,40.0,123,48.1,Training
+The Rock,1996,R,Action,75.0,136,134.1,Testing
+Up Close & Personal,1996,PG-13,Drama,60.0,124,51.0,Training
+White Squall,1996,PG-13,Adventure,38.0,129,10.2,Training
+A Thousand Acres,1997,R,Drama,28.0,105,7.9,Testing
+Air Bud,1997,PG,Comedy,3.0,98,24.6,Training
+An American Werewolf in Paris,1997,R,Horror,25.0,105,26.6,Training
+Con Air,1997,R,Action,75.0,115,101.1,Training
+Flubber,1997,PG,"Scifi, Comedy, Family",80.0,93,93.0,Training
+G.I. Jane,1997,R,Drama,50.0,125,48.2,Testing
+George Of The Jungle,1997,PG,Comedy,55.0,92,105.3,Training
+Gone Fishin',1997,PG,Comedy,53.0,94,19.7,Training
+Grosse Pointe Blank,1997,R,Black Comedy,15.0,107,28.1,Training
+Hercules,1997,G,"Fantasy, Romance, Animation, Comedy, Family, European, Action",85.0,93,99.1,Training
+Jungle 2 Jungle,1997,PG,"Comedy, Family",32.0,105,59.9,Training
+Kundun,1997,PG-13,Drama,28.0,134,5.7,Training
+Metro,1997,R,Action,55.0,117,32.0,Training
+Mr. Magoo,1997,PG,"Comedy, Family",30.0,87,21.4,Testing
+Nothing To Lose,1997,R,Comedy,25.0,98,44.5,Testing
+Playing God,1997,R,Thriller/Suspense,12.0,94,4.2,Testing
+Prefontaine,1997,PG-13,Drama,8.0,106,0.6,Training
+The Sixth Man,1997,PG-13,Comedy,11.0,107,14.8,Testing
+A Bug's Life,1998,G,"Comedy, Animation, Family, Fantasy",120.0,95,162.8,Testing
+A Civil Action,1998,PG-13,Drama,75.0,115,56.7,Training
+Armageddon,1998,PG-13,Adventure,140.0,151,201.6,Training
+Beloved,1998,R,Drama,80.0,172,22.9,Testing
+Deep Rising,1998,R,Action,45.0,106,11.2,Training
+Enemy of the State,1998,R,Action,90.0,132,111.5,Training
+He Got Game,1998,R,Drama,25.0,136,21.6,Training
+Holy Man,1998,PG,Comedy,60.0,114,12.1,Training
+I'll Be Home For Christmas,1998,PG,Comedy,30.0,86,12.2,Training
+Meet the Deedles,1998,PG,"Comedy, Family, Sport",24.0,93,4.4,Training
+Mighty Joe Young,1998,PG,"Fantasy, Family, Thriller, Action, European",90.0,114,50.6,Training
+Mulan,1998,G,"Animation, War, Drama, Comedy, Family, Fantasy",90.0,88,120.6,Training
+Rushmore,1998,R,Black Comedy,9.0,93,17.1,Training
+Simon Birch,1998,PG,Drama,30.0,114,18.3,Training
+"Six Days, Seven Nights",1998,PG-13,Romantic Comedy,70.0,102,74.3,Training
+The Horse Whisperer,1998,PG-13,Drama,60.0,169,75.4,Training
+The Waterboy,1998,PG-13,Comedy,23.0,90,161.5,Training
+Bicentennial Man,1999,PG,Drama,100.0,132,58.2,Training
+Breakfast of Champions,1999,R,Comedy,12.0,110,0.2,Training
+Cradle Will Rock,1999,R,Drama,36.0,132,2.9,Training
+Deuce Bigalow: Male Gigolo,1999,R,Comedy,17.0,88,65.5,Training
+Inspector Gadget,1999,PG,"Comedy, Crime, Family, Scifi, Action",90.0,78,97.4,Testing
+Instinct,1999,R,Drama,80.0,126,34.1,Training
+Mumford,1999,R,Comedy,28.0,112,4.6,Training
+My Favorite Martian,1999,PG,"Drama, Comedy, Family, Scifi",65.0,94,36.9,Testing
+"Mystery, Alaska",1999,R,Comedy,28.0,119,8.9,Testing
+Play it to the Bone,1999,R,Comedy,24.0,124,8.4,Training
+Summer of Sam,1999,R,Drama,22.0,142,19.3,Training
+Tarzan,1999,G,"Animation, Comedy, Drama, Family, Music, Romance",130.0,88,171.1,Training
+The 13th Warrior,1999,R,Action,160.0,102,32.7,Training
+The Insider,1999,R,Drama,90.0,157,29.0,Testing
+The Other Sister,1999,PG-13,Romantic Comedy,35.0,129,27.8,Training
+The Sixth Sense,1999,PG-13,Thriller/Suspense,40.0,107,293.5,Training
+The Straight Story,1999,G,Drama,10.0,112,6.2,Training
+Toy Story 2,1999,G,"Comedy, Family, Fantasy, Animation",90.0,92,245.9,Training
+102 Dalmatians,2000,G,"Comedy, Family",85.0,100,66.9,Testing
+Coyote Ugly,2000,PG-13,Drama,45.0,100,60.8,Training
+Dinosaur,2000,PG,"Animation, Drama, Family, Fantasy, Thriller, Comedy",127.5,82,137.7,Testing
+Duets,2000,R,Drama,21.0,112,4.7,Training
+Gone in 60 Seconds,2000,PG-13,Action,90.0,118,101.6,Training
+Gun Shy,2000,R,Comedy,14.0,101,1.6,Training
+High Fidelity,2000,R,Comedy,30.0,113,27.3,Training
+Keeping the Faith,2000,PG-13,Romantic Comedy,29.0,128,37.0,Testing
+Mission to Mars,2000,PG,Adventure,100.0,114,60.9,Training
+"O Brother, Where Art Thou?",2000,PG-13,Comedy,26.0,107,45.5,Testing
+Remember the Titans,2000,PG,"Drama, Sport",30.0,113,115.7,Training
+Shanghai Noon,2000,PG-13,Western,55.0,110,56.9,Training
+The Emperor's New Groove,2000,G,"Fantasy, Comedy, Family, Animation",100.0,78,89.3,Training
+The Kid,2000,PG,"Fantasy, Comedy, Family",65.0,104,69.7,Training
+The Tigger Movie,2000,G,"Animation, Comedy, Drama, Family",30.0,77,45.5,Training
+Unbreakable,2000,PG-13,Thriller/Suspense,75.0,106,95.0,Training
+Atlantis: The Lost Empire,2001,PG,"Scifi, Family, Fantasy, Animation, Action",120.0,95,84.1,Testing
+Bubble Boy,2001,PG-13,Comedy,13.0,84,5.0,Training
+Corky Romano,2001,PG-13,Comedy,11.0,86,24.0,Training
+Just Visiting,2001,PG-13,Comedy,35.0,88,4.8,Training
+Max Keeble's Big Move,2001,PG,"Comedy, Crime, Family",25.0,86,17.3,Training
+"Monsters, Inc.",2001,G,"Animation, Comedy, Family, Fantasy",115.0,92,289.4,Training
+Out Cold,2001,PG-13,Comedy,24.0,89,13.9,Training
+Pearl Harbor,2001,PG-13,Action,140.0,183,198.5,Testing
+Recess: School's Out,2001,G,"Scifi, Comedy, Family, Animation",23.0,82,36.7,Training
+The Princess Diaries,2001,G,"Comedy, Romance, Family",26.0,111,108.2,Training
+The Royal Tenenbaums,2001,R,Black Comedy,21.0,110,52.4,Training
+crazy/beautiful,2001,PG-13,Drama,13.0,99,16.9,Testing
+25th Hour,2002,R,Drama,5.0,135,13.1,Training
+Bad Company,2002,PG-13,Action,70.0,116,30.2,Training
+Big Trouble,2002,PG-13,Comedy,40.0,85,7.3,Training
+Lilo & Stitch,2002,PG,"Animation, Comedy, Drama, Family, Fantasy, Scifi",80.0,92,145.8,Training
+Moonlight Mile,2002,PG-13,Drama,21.0,117,6.8,Training
+Reign of Fire,2002,PG-13,Action,60.0,101,43.1,Training
+Signs,2002,PG-13,Thriller/Suspense,72.0,106,228.0,Training
+Snow Dogs,2002,PG,"Comedy, Family, Action, Sport",33.0,99,81.2,Training
+Sorority Boys,2002,R,Comedy,12.0,93,10.2,Training
+Sweet Home Alabama,2002,PG-13,Comedy,30.0,108,127.2,Training
+The Count of Monte Cristo,2002,PG-13,Drama,35.0,131,54.2,Training
+The Country Bears,2002,G,"Comedy, Documentation, Family, Music",35.0,88,17.0,Testing
+The Rookie,2002,G,"Drama, Family, Sport",22.0,127,75.6,Training
+The Santa Clause 2,2002,G,"Comedy, Fantasy, Family",65.0,104,139.2,Testing
+Treasure Planet,2002,PG,"Fantasy, Scifi, Animation, Family",140.0,95,38.1,Training
+Tuck Everlasting,2002,PG,"Drama, Fantasy, Romance, Family",15.0,90,19.2,Training
+Bringing Down the House,2003,PG-13,Comedy,33.0,105,132.7,Testing
+Brother Bear,2003,G,"Animation, Fantasy, Comedy, Drama, Family",128.0,85,85.3,Testing
+Calendar Girls,2003,PG-13,Comedy,10.0,108,31.0,Training
+Finding Nemo,2003,G,"Animation, Family, Comedy",94.0,100,380.5,Training
+Freaky Friday,2003,PG,"Fantasy, Comedy, Family",20.0,97,110.2,Training
+Holes,2003,PG,"Comedy, Drama, Family",20.0,117,67.4,Training
+Open Range,2003,R,Western,22.0,139,58.3,Testing
+Shanghai Knights,2003,PG-13,Adventure,50.0,114,60.5,Training
+The Haunted Mansion,2003,PG,"Comedy, Thriller, Fantasy, Horror, Family, Drama",90.0,88,75.8,Training
+The Jungle Book 2,2003,G,"Animation, Comedy, Family, Fantasy",20.0,72,47.9,Testing
+The Lizzie McGuire Movie,2003,PG,"Family, Comedy, Music, Romance",17.0,94,42.7,Training
+The Recruit,2003,PG-13,Thriller/Suspense,46.0,115,52.8,Training
+Under the Tuscan Sun,2003,PG-13,Comedy,18.0,113,43.6,Testing
+Veronica Guerin,2003,R,Drama,17.0,98,1.6,Training
+Around the World in 80 Days,2004,PG,"Comedy, Family, Western, Action",110.0,120,24.0,Training
+Confessions of a Teenage Drama Queen,2004,PG,"Comedy, Family, Music, Romance, European",15.0,89,29.3,Training
+Hidalgo,2004,PG-13,Western,100.0,136,67.3,Training
+Home on the Range,2004,PG,"Animation, Western, Music, Comedy, Family",110.0,76,50.0,Training
+King Arthur,2004,PG-13,Adventure,120.0,126,51.9,Training
+Ladder 49,2004,PG-13,Action,55.0,115,74.5,Training
+Miracle,2004,PG,"Drama, History, Sport, European",28.0,135,64.4,Training
+National Treasure,2004,PG,"Thriller, Action, Western, Family",100.0,131,173.0,Training
+Raising Helen,2004,PG-13,Comedy,50.0,119,37.5,Training
+The Alamo,2004,PG-13,Western,107.0,137,22.4,Testing
+The Incredibles,2004,PG,"Animation, Action, Family",92.0,115,261.4,Training
+The Ladykillers,2004,R,Comedy,35.0,104,39.7,Training
+The Life Aquatic with Steve Zissou,2004,R,Comedy,50.0,119,24.0,Testing
+The Princess Diaries 2: Royal Engagement,2004,G,"Romance, Comedy, Family",40.0,113,95.1,Training
+The Village,2004,PG-13,Thriller/Suspense,60.0,108,114.2,Testing
+A Lot Like Love,2005,PG-13,Comedy,30.0,107,21.8,Testing
+Chicken Little,2005,G,"Comedy, Family, Fantasy, Scifi, Animation",150.0,81,135.4,Training
+Dark Water,2005,PG-13,Thriller/Suspense,30.0,105,25.5,Training
+Flightplan,2005,PG-13,Thriller/Suspense,55.0,98,89.7,Training
+Herbie: Fully Loaded,2005,G,Comedy,50.0,101,66.0,Training
+Sky High,2005,PG,"Comedy, Family, Scifi, Action",35.0,100,63.9,Training
+The Greatest Game Ever Played,2005,PG,"Drama, Sport, History",26.0,120,15.3,Training
+The Hitchhiker's Guide to the Galaxy,2005,PG,Comedy,50.0,109,51.0,Training
+The Pacifier,2005,PG,"Comedy, Drama, Family, Action",56.0,95,113.0,Training
+Valiant,2005,G,"Comedy, Animation, Family, War",35.0,76,19.5,Training
+Apocalypto,2006,R,Adventure,40.0,139,50.9,Training
+Cars,2006,G,"Comedy, Family, Animation, Action, Sport",120.0,117,244.1,Training
+Eight Below,2006,PG,"Drama, Family",40.0,120,81.6,Training
+Goal! The Dream Begins,2006,PG,Drama,10.0,118,4.3,Training
+Invincible,2006,PG,"Drama, Sport",40.0,105,57.8,Training
+Stay Alive,2006,PG-13,Horror,7.0,85,23.1,Training
+Step Up,2006,PG-13,Drama,12.0,104,65.3,Training
+The Guardian,2006,PG-13,Action,70.0,139,55.0,Training
+The Prestige,2006,PG-13,Thriller/Suspense,40.0,130,53.1,Training
+The Santa Clause 3: The Escape Clause,2006,G,"Comedy, Family, Fantasy",12.0,92,84.5,Training
+The Wild,2006,G,"Animation, Comedy, Family",80.0,82,37.4,Training
+Bridge to Terabithia,2007,PG,Drama,17.0,96,82.2,Training
+Dan in Real Life,2007,PG-13,"Romance, Comedy, Drama",25.0,98,47.6,Testing
+Enchanted,2007,PG,"Comedy, Family, Fantasy, Romance, Animation",85.0,107,127.7,Training
+Meet the Robinsons,2007,G,"Comedy, Animation, Family, Scifi, Drama, Music, Fantasy",150.0,95,97.8,Training
+Ratatouille,2007,G,"Fantasy, Animation, Comedy, Family, Drama",150.0,111,206.4,Testing
+The Game Plan,2007,PG,"Comedy, Family, Sport",22.0,110,90.6,Training
+The Invisible,2007,PG-13,Thriller/Suspense,30.0,102,20.6,Training
+The Lookout,2007,R,Drama,16.0,99,4.6,Testing
+Bedtime Stories,2008,PG,"Fantasy, Romance, Scifi, Comedy, Family",80.0,99,110.1,Testing
+Beverly Hills Chihuahua,2008,PG,"Romance, Comedy, Family, Thriller, Animation, Drama, Action",20.0,91,94.5,Training
+Bolt,2008,PG,"Animation, Comedy, Crime, Drama, Family, Scifi, Fantasy",150.0,96,114.1,Testing
+High School Musical 3: Senior Year,2008,G,"Romance, Drama, Family, Music, Comedy",11.0,112,90.6,Testing
+Step Up 2 the Streets,2008,PG-13,Drama,17.5,98,58.0,Training
+The Chronicles of Narnia: Prince Caspian,2008,PG,"Fantasy, Action, Family, European",225.0,150,141.6,Training
+WALL-E,2008,G,Adventure,180.0,98,223.8,Training
+G-Force,2009,PG,"Comedy, Family, Fantasy, Scifi, Animation, Action",150.0,88,119.4,Testing
+Hannah Montana the Movie,2009,G,Drama,30.0,102,79.6,Training
+Old Dogs,2009,PG,Comedy,35.0,88,49.5,Testing
+Race to Witch Mountain,2009,PG,"Fantasy, Thriller, Action, Family, Scifi",65.0,98,67.2,Training
+Surrogates,2009,PG-13,Action,80.0,89,38.6,Training
+The Princess and the Frog,2009,G,"Romance, Family, Fantasy, Animation, Comedy",105.0,97,104.4,Testing
+The Proposal,2009,PG-13,Romantic Comedy,40.0,108,164.0,Training
+Up,2009,PG,"Comedy, Drama, Family, Animation",175.0,96,293.0,Training
+Alice in Wonderland,2010,PG,"Fantasy, Family, Animation, Comedy",200.0,108,334.2,Training
+Secretariat,2010,PG,"Drama, Documentation, Family, History, Sport",35.0,123,59.7,Testing
+Tangled,2010,PG,"Animation, Romance, Comedy, Family, Fantasy",260.0,100,200.8,Training
+The Last Song,2010,PG,"Romance, Drama, Music",20.0,107,63.0,Training
+The Sorcerer's Apprentice,2010,PG,"Fantasy, Action, Family, European",150.0,109,63.2,Training
+Toy Story 3,2010,G,"Comedy, Animation, Family, Fantasy",200.0,103,415.0,Training
+Tron: Legacy,2010,PG,Adventure,170.0,125,172.1,Training
+When in Rome,2010,PG-13,Romantic Comedy,55.0,91,32.7,Training
+You Again,2010,PG,"Comedy, Romance",20.0,105,25.7,Training
+Cars 2,2011,G,"Animation, Fantasy, Comedy, Family, Sport, Drama, Crime, Scifi",200.0,106,191.5,Training
+Fright Night,2011,R,Horror,30.0,106,18.3,Training
+I am Number Four,2011,PG-13,Adventure,60.0,111,55.1,Testing
+Real Steel,2011,PG-13,Action,110.0,127,85.5,Training
+The Help,2011,PG-13,Drama,25.0,146,169.7,Training
+The Muppets,2011,PG,"Comedy, Family",45.0,103,88.6,Training
+War Horse,2011,PG-13,Drama,66.0,146,79.9,Training
+Winnie the Pooh,2011,G,"Animation, Family, Fantasy, Comedy, Drama, European",30.0,63,26.7,Training
+Brave,2012,PG,"Comedy, Fantasy, Animation, Family",185.0,93,237.3,Training
+Frankenweenie,2012,PG,Scifi,39.0,87,35.3,Training
+John Carter,2012,PG-13,"Scifi, Action, European",250.0,132,73.1,Training
+Lincoln,2012,PG-13,Drama,65.0,150,182.2,Training
+People Like Us,2012,PG-13,Drama,16.0,114,12.4,Testing
+The Avengers,2012,PG-13,"Scifi, Action",220.0,143,623.3,Training
+The Odd Life of Timothy Green,2012,PG,"Fantasy, Drama, Comedy, Family",25.0,105,51.9,Training
+Wreck-It Ralph,2012,PG,"Comedy, Animation, Family, Fantasy, Scifi",165.0,101,189.4,Training
+Delivery Man,2013,PG-13,Comedy,26.0,105,30.7,Training
+Frozen,2013,PG,"Fantasy, Comedy, Family, Animation",150.0,102,400.7,Testing
+Iron Man 3,2013,PG-13,"Action, Scifi",200.0,130,409.0,Testing
+Monsters University,2013,G,"Animation, Comedy, Family, Fantasy, Horror",200.0,104,268.5,Training
+Oz the Great and Powerful,2013,PG,Adventure,215.0,130,234.8,Training
+Saving Mr. Banks,2013,PG-13,"Drama, Comedy, Music",35.0,125,83.3,Training
+The Fifth Estate,2013,R,Drama,28.0,128,3.3,Training
+The Lone Ranger,2013,PG-13,Western,215.0,150,89.3,Training
+Thor: The Dark World,2013,PG-13,"Fantasy, Action, Scifi",170.0,112,206.4,Training
+Big Hero 6,2014,PG,"Animation, Action, Comedy, Family, Scifi, Drama",165.0,102,222.5,Training
+Captain America: The Winter Soldier,2014,PG-13,"Scifi, Thriller, Action",170.0,136,259.7,Training
+Guardians of the Galaxy,2014,PG-13,"Action, Comedy, Scifi",170.0,121,333.2,Training
+Into the Woods,2014,PG,"Fantasy, Comedy, Drama",50.0,125,128.0,Training
+Maleficent,2014,PG,Adventure,180.0,97,241.4,Training
+Million Dollar Arm,2014,PG,Drama,25.0,124,36.4,Training
+Muppets Most Wanted,2014,PG,"Crime, Comedy, Family",50.0,107,51.2,Training
+Need for Speed,2014,PG-13,Action,66.0,132,43.6,Training
+The Hundred-Foot Journey,2014,PG,Romantic Comedy,22.0,122,54.2,Training
+Ant-Man,2015,PG-13,"Scifi, Comedy, Crime, Action",130.0,117,180.2,Training
+Avengers: Age of Ultron,2015,PG-13,"Scifi, Action, Comedy",250.0,141,459.0,Training
+Bridge of Spies,2015,PG-13,Thriller/Suspense,40.0,142,72.3,Testing
+Cinderella,2015,PG,"Fantasy, Animation, Family, Romance",95.0,105,201.2,Training
+Inside Out,2015,PG,"Comedy, Drama, Animation, Family, Fantasy, Scifi",175.0,95,356.5,Training
+"McFarland, USA",2015,PG,"Drama, Sport",17.0,129,44.5,Training
+The Good Dinosaur,2015,PG,"Animation, Fantasy, Comedy, Drama, Family",200.0,93,123.1,Training
+Tomorrowland,2015,PG,Adventure,190.0,130,93.4,Training
+Alice Through the Looking Glass,2016,PG,"Fantasy, European",170.0,113,77.0,Training
+Captain America: Civil War,2016,PG-13,"Action, Scifi",250.0,147,408.1,Training
+Doctor Strange,2016,PG-13,"Fantasy, Action, Scifi",165.0,115,232.5,Testing
+Finding Dory,2016,PG,"Comedy, Family, Drama, Animation",200.0,97,486.3,Training
+Moana,2016,PG,"Action, Comedy, Family, Animation, Fantasy",150.0,107,246.1,Training
+Pete’s Dragon,2016,PG,Adventure,65.0,102,76.2,Testing
+Rogue One: A Star Wars Story,2016,PG-13,"Scifi, Action",200.0,133,529.5,Training
+The BFG,2016,PG,Adventure,140.0,117,55.5,Training
+The Finest Hours,2016,PG,"Thriller, Action, Drama, History",80.0,117,27.6,Training
+The Jungle Book,2016,PG,"Animation, Fantasy, Comedy, Family",175.0,106,364.0,Training
+The Light Between Oceans,2016,PG-13,Drama,20.0,133,12.5,Training
+Zootopia,2016,PG,"Comedy, Crime, Animation, Action, Family",150.0,108,341.3,Training
