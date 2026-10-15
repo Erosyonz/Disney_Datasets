@@ -4,11 +4,10 @@ Plain-language charts and a readable data table for the merged Disney dataset
 
 Usage:  python disney_readable_charts.py
 Needs:  pip install pandas numpy statsmodels matplotlib
-Input:  disney_train_merged.csv and disney_test_merged.csv
-        (created by disney_merged_regression.py; in this folder or in "Datasets")
+Input:  disney_train_clean.csv and disney_test_clean.csv
+        (created by clean_disney_data.py; in this folder or in "Datasets")
 Output: a "charts" folder with 5 PNGs, plus disney_movies_readable.csv
 """
-import ast
 import textwrap
 from pathlib import Path
 import numpy as np
@@ -62,17 +61,17 @@ def finish(fig, name, note, left=0.11, bottom=0.20):
 
 # ------------------------------------------------------------------- data
 def parse_genres(v):
+    """Clean files store genres like "comedy, drama" (one standard format)."""
     if pd.isna(v):
         return []
-    v = str(v).strip()
-    return [g.lower() for g in ast.literal_eval(v)] if v.startswith("[") else [v.lower()]
+    return [g.strip().lower() for g in str(v).split(",") if g.strip()]
 
 
 GENRES = ["comedy", "family", "drama", "fantasy", "action",
           "animation", "romance", "adventure", "scifi"]
 
-train_raw = pd.read_csv(find_csv("disney_train_merged.csv"))
-test_raw = pd.read_csv(find_csv("disney_test_merged.csv"))
+train_raw = pd.read_csv(find_csv("disney_train_clean.csv"))
+test_raw = pd.read_csv(find_csv("disney_test_clean.csv"))
 
 
 def prepare(d):
@@ -271,24 +270,17 @@ finish(fig, "5_what_matters.png", NOTE, left=0.30)
 
 # -------------------------------------- readable data table
 allfilms = pd.concat([train_raw.assign(Set="Training"), test_raw.assign(Set="Testing")], ignore_index=True)
-used = set(zip(films["movie_title"], films["release_date"]))
 table = pd.DataFrame({
     "Movie": allfilms["movie_title"],
-    "Release date": allfilms["release_date"],
     "Release year": allfilms["year"],
-    "Rating": allfilms["mpaa_rating"].fillna("Not available"),
+    "Rating": allfilms["mpaa_rating"],
     "Genres": allfilms["genre"].map(lambda v: ", ".join(x.title() for x in parse_genres(v))),
     "Budget ($ millions)": (allfilms["budget"] / 1e6).round(1),
-    "Runtime (minutes)": allfilms["runtime"],
+    "Runtime (minutes)": allfilms["runtime"].astype(int),
     "Box office ($ millions)": (allfilms["total_gross"] / 1e6).round(1),
-    "Box office adjusted for inflation ($ millions)": (allfilms["inflation_adjusted_gross"] / 1e6).round(1),
-    "IMDb score (out of 10)": allfilms["score"],
-    "Studio": allfilms["company"],
     "Data split": allfilms["Set"],
-    "Used in the model?": [("Yes" if k in used else "No (no budget data)")
-                           for k in zip(allfilms["movie_title"], allfilms["release_date"])],
 })
-table = table.sort_values("Release date").reset_index(drop=True)
+table = table.sort_values(["Release year", "Movie"]).reset_index(drop=True)
 table.to_csv(HERE / "disney_movies_readable.csv", index=False)
 
 print(f"Charts saved to: {OUT}")
