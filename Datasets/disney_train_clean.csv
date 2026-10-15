@@ -1,0 +1,280 @@
+movie_title,year,mpaa_rating,genre,budget,runtime,total_gross
+Ransom,1996,R,action,80000000.0,121.0,136492681
+Inside Out,2015,PG,"comedy, drama, animation, family, fantasy, scifi",175000000.0,95.0,356461711
+Step Up 2 the Streets,2008,PG-13,drama,17500000.0,98.0,58017783
+Apocalypto,2006,R,adventure,40000000.0,139.0,50866635
+Raising Helen,2004,PG-13,comedy,50000000.0,119.0,37485528
+The Incredibles,2004,PG,"animation, action, family",92000000.0,115.0,261441092
+The Air Up There,1994,PG,comedy,17080000.0,107.0,20782439
+Big Trouble,2002,PG-13,comedy,40000000.0,85.0,7262288
+The Help,2011,PG-13,drama,25000000.0,146.0,169705587
+The Rookie,2002,G,"drama, family, sport",22000000.0,127.0,75600072
+Air Bud,1997,PG,comedy,3000000.0,98.0,24646936
+Thor: The Dark World,2013,PG-13,"fantasy, action, scifi",170000000.0,112.0,206362140
+Terminal Velocity,1994,PG-13,action,50000000.0,102.0,16478900
+Flubber,1997,PG,"scifi, comedy, family",80000000.0,93.0,92993801
+The Hundred-Foot Journey,2014,PG,romantic comedy,22000000.0,122.0,54235441
+Holes,2003,PG,"comedy, drama, family",20000000.0,117.0,67383924
+White Squall,1996,PG-13,adventure,38000000.0,129.0,10229300
+Step Up,2006,PG-13,drama,12000000.0,104.0,65328121
+James and the Giant Peach,1996,PG,"fantasy, animation, family",38000000.0,79.0,28921264
+Dead Presidents,1995,R,drama,10000000.0,119.0,24120194
+Lincoln,2012,PG-13,drama,65000000.0,150.0,182207973
+The Sixth Sense,1999,PG-13,thriller/suspense,40000000.0,107.0,293506292
+Need for Speed,2014,PG-13,action,66000000.0,132.0,43568507
+Hocus Pocus,1993,PG,"fantasy, family, horror, comedy, european",28000000.0,96.0,39360491
+Gross Anatomy,1989,PG-13,drama,8500000.0,109.0,11346186
+Recess: School's Out,2001,G,"scifi, comedy, family, animation",23000000.0,82.0,36696761
+Max Keeble's Big Move,2001,PG,"comedy, crime, family",25000000.0,86.0,17292381
+3 Ninjas Kick Back,1994,PG,action,20000000.0,93.0,11744960
+Grosse Pointe Blank,1997,R,black comedy,15000000.0,107.0,28084357
+Sister Act 2 Back in the Habit,1993,PG,comedy,38000000.0,107.0,57319029
+You Again,2010,PG,"comedy, romance",20000000.0,105.0,25702053
+Beaches,1988,PG-13,drama,20000000.0,123.0,57041866
+Gun Shy,2000,R,comedy,14000000.0,101.0,1638202
+Judge Dredd,1995,R,action,90000000.0,96.0,34687912
+"Honey, I Shrunk the Kids",1989,PG,"scifi, family, comedy",18000000.0,93.0,130724172
+"Six Days, Seven Nights",1998,PG-13,romantic comedy,70000000.0,102.0,74339294
+The Little Mermaid,1989,G,"fantasy, comedy, family, romance, animation",40000000.0,83.0,111543479
+The Jungle Book,2016,PG,"animation, fantasy, comedy, family",175000000.0,106.0,364001123
+The Light Between Oceans,2016,PG-13,drama,20000000.0,133.0,12545979
+Bad Company,1995,R,thriller/suspense,15000000.0,108.0,3523909
+Innocent Blood,1992,R,horror,20000000.0,112.0,4877567
+The Fifth Estate,2013,R,drama,28000000.0,128.0,3254172
+The Mighty Ducks,1992,PG,"comedy, drama, sport, family",10000000.0,104.0,50752337
+Oliver & Company,1988,G,"animation, comedy, family",31000000.0,74.0,49576671
+Hercules,1997,G,"fantasy, romance, animation, comedy, family, european, action",85000000.0,93.0,99112101
+The Prestige,2006,PG-13,thriller/suspense,40000000.0,130.0,53089891
+Sweet Home Alabama,2002,PG-13,comedy,30000000.0,108.0,127214072
+Jack,1996,PG-13,"comedy, drama, fantasy",45000000.0,113.0,58617334
+Turner & Hooch,1989,PG,"comedy, crime, drama, thriller",13000000.0,97.0,71079915
+The Princess Diaries,2001,G,"comedy, romance, family",26000000.0,111.0,108244774
+Enemy of the State,1998,R,action,90000000.0,132.0,111549836
+When in Rome,2010,PG-13,romantic comedy,55000000.0,91.0,32680633
+Fire Birds,1990,PG-13,action,22000000.0,85.0,14760451
+The Muppet Christmas Carol,1992,G,"fantasy, comedy, drama, family",12000000.0,85.0,27281507
+Super Mario Bros.,1993,PG,action,48000000.0,104.0,20844907
+Armageddon,1998,PG-13,adventure,140000000.0,151.0,201578182
+Money for Nothing,1993,R,comedy,11000000.0,100.0,1044824
+Real Steel,2011,PG-13,action,110000000.0,127.0,85463309
+Con Air,1997,R,action,75000000.0,115.0,101117573
+Oscar,1991,PG,comedy,35000000.0,109.0,23562716
+Invincible,2006,PG,"drama, sport",40000000.0,105.0,57806952
+Pocahontas,1995,G,"romance, animation, drama, family, european",55000000.0,81.0,141579773
+Blaze,1989,R,drama,22000000.0,120.0,19049727
+Instinct,1999,R,drama,80000000.0,126.0,34105207
+The Finest Hours,2016,PG,"thriller, action, drama, history",80000000.0,117.0,27569558
+The Adventures of Huck Finn,1993,PG,"comedy, drama, family",6500000.0,108.0,24103594
+The Santa Clause,1994,PG,"comedy, drama, family, fantasy",22000000.0,97.0,144833357
+Jungle 2 Jungle,1997,PG,"comedy, family",32000000.0,105.0,59925026
+Hannah Montana the Movie,2009,G,drama,30000000.0,102.0,79576189
+The Muppets,2011,PG,"comedy, family",45000000.0,103.0,88625922
+Dead Poets Society,1989,PG,drama,16400000.0,128.0,95860116
+The Greatest Game Ever Played,2005,PG,"drama, sport, history",26000000.0,120.0,15331289
+The Emperor's New Groove,2000,G,"fantasy, comedy, family, animation",100000000.0,78.0,89296573
+Cars,2006,G,"comedy, family, animation, action, sport",120000000.0,117.0,244082982
+Gone in 60 Seconds,2000,PG-13,action,90000000.0,118.0,101643008
+Crimson Tide,1995,R,action,53000000.0,116.0,91387195
+New York Stories,1989,PG,drama,15000000.0,124.0,10763469
+Delivery Man,2013,PG-13,comedy,26000000.0,105.0,30659817
+Bicentennial Man,1999,PG,drama,100000000.0,132.0,58220776
+Kundun,1997,PG-13,drama,28000000.0,134.0,5686694
+Angels in the Outfield,1994,PG,comedy,24000000.0,102.0,50236831
+Saving Mr. Banks,2013,PG-13,"drama, comedy, music",35000000.0,125.0,83299761
+Surrogates,2009,PG-13,action,80000000.0,89.0,38577772
+Jefferson in Paris,1995,PG-13,drama,14000000.0,139.0,2461628
+Ernest Goes to Jail,1990,PG,comedy,9000000.0,81.0,25029569
+WALL-E,2008,G,adventure,180000000.0,98.0,223808164
+Medicine Man,1992,PG-13,drama,40000000.0,106.0,44948240
+Cars 2,2011,G,"animation, fantasy, comedy, family, sport, drama, crime, scifi",200000000.0,106.0,191450875
+The BFG,2016,PG,adventure,140000000.0,117.0,55483770
+Remember the Titans,2000,PG,"drama, sport",30000000.0,113.0,115654751
+Mumford,1999,R,comedy,28000000.0,112.0,4559569
+The Game Plan,2007,PG,"comedy, family, sport",22000000.0,110.0,90648202
+The Hand That Rocks the Cradle,1992,R,thriller/suspense,11700000.0,110.0,88036683
+Spaced Invaders,1990,PG,comedy,3000000.0,100.0,15000000
+Race to Witch Mountain,2009,PG,"fantasy, thriller, action, family, scifi",65000000.0,98.0,67172594
+Corky Romano,2001,PG-13,comedy,11000000.0,86.0,23978402
+John Carter,2012,PG-13,"scifi, action, european",250000000.0,132.0,73058679
+Metro,1997,R,action,55000000.0,117.0,32017895
+Fright Night,2011,R,horror,30000000.0,106.0,18298649
+Meet the Deedles,1998,PG,"comedy, family, sport",24000000.0,93.0,4356126
+25th Hour,2002,R,drama,5000000.0,135.0,13084595
+Arachnophobia,1990,PG-13,thriller/suspense,22000000.0,109.0,53208180
+Million Dollar Arm,2014,PG,drama,25000000.0,124.0,36447959
+The Rocketeer,1991,PG,"scifi, family, action",35000000.0,108.0,46573027
+Rogue One: A Star Wars Story,2016,PG-13,"scifi, action",200000000.0,133.0,529483936
+Ladder 49,2004,PG-13,action,55000000.0,115.0,74541707
+The Count of Monte Cristo,2002,PG-13,drama,35000000.0,131.0,54228104
+Houseguest,1995,PG,comedy,10500000.0,113.0,26325256
+Tuck Everlasting,2002,PG,"drama, fantasy, romance, family",15000000.0,90.0,19161999
+Up Close & Personal,1996,PG-13,drama,60000000.0,124.0,51045801
+The Guardian,2006,PG-13,action,70000000.0,139.0,55011732
+Unbreakable,2000,PG-13,thriller/suspense,75000000.0,106.0,94999143
+Around the World in 80 Days,2004,PG,"comedy, family, western, action",110000000.0,120.0,24004159
+Guilty as Sin,1993,R,thriller/suspense,12000000.0,107.0,22622537
+Sister Act,1992,PG,"comedy, music, crime, family",31000000.0,100.0,139605150
+Goal! The Dream Begins,2006,PG,drama,10000000.0,118.0,4283255
+The Odd Life of Timothy Green,2012,PG,"fantasy, drama, comedy, family",25000000.0,105.0,51853450
+Kazaam,1996,PG,"fantasy, comedy, family",20000000.0,93.0,18880508
+Monsters University,2013,G,"animation, comedy, family, fantasy, horror",200000000.0,104.0,268488329
+Chicken Little,2005,G,"comedy, family, fantasy, scifi, animation",150000000.0,81.0,135386665
+Beauty and the Beast,1991,G,"fantasy, family, animation, scifi, drama, romance",25000000.0,84.0,218951625
+Deuce Bigalow: Male Gigolo,1999,R,comedy,17000000.0,88.0,65535067
+Alice in Wonderland,2010,PG,"fantasy, family, animation, comedy",200000000.0,108.0,334191110
+Flightplan,2005,PG-13,thriller/suspense,55000000.0,98.0,89706988
+Hidalgo,2004,PG-13,western,100000000.0,136.0,67286731
+Toy Story 2,1999,G,"comedy, family, fantasy, animation",90000000.0,92.0,245852179
+Valiant,2005,G,"comedy, animation, family, war",35000000.0,76.0,19478106
+Simon Birch,1998,PG,drama,30000000.0,114.0,18253415
+Out Cold,2001,PG-13,comedy,24000000.0,89.0,13906394
+The Pacifier,2005,PG,"comedy, drama, family, action",56000000.0,95.0,113006880
+Dark Water,2005,PG-13,thriller/suspense,30000000.0,105.0,25473093
+Deep Rising,1998,R,action,45000000.0,106.0,11203026
+The Proposal,2009,PG-13,romantic comedy,40000000.0,108.0,163958031
+Play it to the Bone,1999,R,comedy,24000000.0,124.0,8427204
+Calendar Girls,2003,PG-13,comedy,10000000.0,108.0,31011616
+A Stranger Among Us,1992,PG-13,drama,18000000.0,110.0,12282994
+The Hitchhiker's Guide to the Galaxy,2005,PG,comedy,50000000.0,109.0,51019112
+Billy Bathgate,1991,R,drama,48000000.0,106.0,15565363
+Big Hero 6,2014,PG,"animation, action, comedy, family, scifi, drama",165000000.0,102.0,222527828
+National Treasure,2004,PG,"thriller, action, western, family",100000000.0,131.0,173005002
+The Other Sister,1999,PG-13,romantic comedy,35000000.0,129.0,27807627
+Toy Story,1995,G,"comedy, family, fantasy, animation",30000000.0,81.0,191796233
+Freaky Friday,2003,PG,"fantasy, comedy, family",20000000.0,97.0,110222438
+Who Framed Roger Rabbit?,1988,PG,comedy,70000000.0,104.0,154112492
+The Princess Diaries 2: Royal Engagement,2004,G,"romance, comedy, family",40000000.0,113.0,95149435
+Alice Through the Looking Glass,2016,PG,"fantasy, european",170000000.0,113.0,77042381
+The 13th Warrior,1999,R,action,160000000.0,102.0,32698899
+A Civil Action,1998,PG-13,drama,75000000.0,115.0,56709981
+Sorority Boys,2002,R,comedy,12000000.0,93.0,10198766
+Meet the Robinsons,2007,G,"comedy, animation, family, scifi, drama, music, fantasy",150000000.0,95.0,97822171
+I Love Trouble,1994,PG,romantic comedy,45000000.0,123.0,30806194
+Duets,2000,R,drama,21000000.0,112.0,4734235
+Stay Alive,2006,PG-13,horror,7000000.0,85.0,23086480
+Breakfast of Champions,1999,R,comedy,12000000.0,110.0,178287
+The Good Dinosaur,2015,PG,"animation, fantasy, comedy, drama, family",200000000.0,93.0,123087120
+Wreck-It Ralph,2012,PG,"comedy, animation, family, fantasy, scifi",165000000.0,101.0,189412677
+Holy Man,1998,PG,comedy,60000000.0,114.0,12069719
+Down and Out in Beverly Hills,1986,R,comedy,14000000.0,103.0,62134225
+An American Werewolf in Paris,1997,R,horror,25000000.0,105.0,26570463
+Bad Company,2002,PG-13,action,70000000.0,116.0,30157016
+Snow Dogs,2002,PG,"comedy, family, action, sport",33000000.0,99.0,81150692
+Avengers: Age of Ultron,2015,PG-13,"scifi, action, comedy",250000000.0,141.0,459005868
+"McFarland, USA",2015,PG,"drama, sport",17000000.0,129.0,44480275
+Gone Fishin',1997,PG,comedy,53000000.0,94.0,19745922
+Splash,1984,PG,"fantasy, comedy, romance",8000000.0,111.0,62599495
+The Joy Luck Club,1993,R,drama,11000000.0,139.0,32790064
+Into the Woods,2014,PG,"fantasy, comedy, drama",50000000.0,125.0,128002372
+Beverly Hills Chihuahua,2008,PG,"romance, comedy, family, thriller, animation, drama, action",20000000.0,91.0,94514402
+The Jungle Book,1994,PG,"animation, fantasy, comedy, family",27000000.0,111.0,44342956
+Cocktail,1988,R,drama,20000000.0,104.0,78222753
+Mighty Joe Young,1998,PG,"fantasy, family, thriller, action, european",90000000.0,114.0,50632037
+Up,2009,PG,"comedy, drama, family, animation",175000000.0,96.0,293004164
+A Low Down Dirty Shame,1994,R,action,10000000.0,108.0,29317886
+Shanghai Noon,2000,PG-13,western,55000000.0,110.0,56932305
+The Ladykillers,2004,R,comedy,35000000.0,104.0,39692139
+The Marrying Man,1991,R,romantic comedy,26000000.0,115.0,12454768
+Signs,2002,PG-13,thriller/suspense,72000000.0,106.0,227965690
+Three Fugitives,1989,PG-13,comedy,15000000.0,96.0,40590000
+Miracle,2004,PG,"drama, history, sport, european",28000000.0,135.0,64378093
+Cinderella,2015,PG,"fantasy, animation, family, romance",95000000.0,105.0,201151353
+Noises Off...,1992,PG-13,comedy,12000000.0,101.0,2280148
+Home on the Range,2004,PG,"animation, western, music, comedy, family",110000000.0,76.0,50026353
+Oz the Great and Powerful,2013,PG,adventure,215000000.0,130.0,234770996
+Guardians of the Galaxy,2014,PG-13,"action, comedy, scifi",170000000.0,121.0,333172112
+The Lizzie McGuire Movie,2003,PG,"family, comedy, music, romance",17000000.0,94.0,42734455
+The Kid,2000,PG,"fantasy, comedy, family",65000000.0,104.0,69688384
+Ant-Man,2015,PG-13,"scifi, comedy, crime, action",130000000.0,117.0,180202163
+Aspen Extreme,1993,PG-13,romantic comedy,14000000.0,113.0,7843388
+The Preacher's Wife,1996,PG,drama,40000000.0,123.0,48102795
+Coyote Ugly,2000,PG-13,drama,45000000.0,100.0,60786269
+Rushmore,1998,R,black comedy,9000000.0,93.0,17105219
+George Of The Jungle,1997,PG,comedy,55000000.0,92.0,105263257
+King Arthur,2004,PG-13,adventure,120000000.0,126.0,51877963
+Summer of Sam,1999,R,drama,22000000.0,142.0,19288130
+Indian Summer,1993,R,comedy,9000000.0,97.0,14717851
+High Fidelity,2000,R,comedy,30000000.0,113.0,27277055
+Encino Man,1992,PG,comedy,7000000.0,88.0,40057130
+Mr. Destiny,1990,PG-13,comedy,20000000.0,110.0,15379253
+Spy Hard,1996,PG-13,comedy,18000000.0,81.0,26936265
+The Royal Tenenbaums,2001,R,black comedy,21000000.0,110.0,52353636
+The Rescuers Down Under,1990,G,"fantasy, animation, comedy, family, crime, drama",30000000.0,77.0,27931461
+Mission to Mars,2000,PG,adventure,100000000.0,114.0,60874615
+Tangled,2010,PG,"animation, romance, comedy, family, fantasy",260000000.0,100.0,200821936
+The Waterboy,1998,PG-13,comedy,23000000.0,90.0,161491646
+Color of Night,1994,R,thriller/suspense,40000000.0,121.0,19750470
+Tall Tale,1995,PG,"western, family, fantasy",32000000.0,96.0,8247627
+The Tigger Movie,2000,G,"animation, comedy, drama, family",30000000.0,77.0,45542421
+Bridge to Terabithia,2007,PG,drama,17000000.0,96.0,82234139
+Tomorrowland,2015,PG,adventure,190000000.0,130.0,93436322
+Tron: Legacy,2010,PG,adventure,170000000.0,125.0,172062763
+Lilo & Stitch,2002,PG,"animation, comedy, drama, family, fantasy, scifi",80000000.0,92.0,145771527
+Honey I Blew Up the Kid,1992,PG,comedy,40000000.0,89.0,58662452
+Father of the Bride Part II,1995,PG,comedy,30000000.0,106.0,76578911
+Just Visiting,2001,PG-13,comedy,35000000.0,88.0,4777007
+The Scarlet Letter,1995,R,drama,46000000.0,135.0,10359006
+Captain Ron,1992,PG-13,comedy,24000000.0,100.0,22518097
+The Avengers,2012,PG-13,"scifi, action",220000000.0,143.0,623279547
+Moonlight Mile,2002,PG-13,drama,21000000.0,117.0,6830957
+Herbie: Fully Loaded,2005,G,comedy,50000000.0,101.0,66010682
+Muppets Most Wanted,2014,PG,"crime, comedy, family",50000000.0,107.0,51178893
+Zootopia,2016,PG,"comedy, crime, animation, action, family",150000000.0,108.0,341268248
+The Invisible,2007,PG-13,thriller/suspense,30000000.0,102.0,20568319
+Shanghai Knights,2003,PG-13,adventure,50000000.0,114.0,60470220
+I'll Be Home For Christmas,1998,PG,comedy,30000000.0,86.0,12214338
+Moana,2016,PG,"action, comedy, family, animation, fantasy",150000000.0,107.0,246082029
+Veronica Guerin,2003,R,drama,17000000.0,98.0,1569918
+The Lion King,1994,G,"drama, family, animation",45000000.0,88.0,422780140
+Eight Below,2006,PG,"drama, family",40000000.0,120.0,81612565
+Sky High,2005,PG,"comedy, family, scifi, action",35000000.0,100.0,63939454
+Treasure Planet,2002,PG,"fantasy, scifi, animation, family",140000000.0,95.0,38120554
+The Straight Story,1999,G,drama,10000000.0,112.0,6197866
+What's Love Got to Do With It,1993,R,drama,15000000.0,118.0,39100956
+Enchanted,2007,PG,"comedy, family, fantasy, romance, animation",85000000.0,107.0,127706877
+Tarzan,1999,G,"animation, comedy, drama, family, music, romance",130000000.0,88.0,171091819
+War Horse,2011,PG-13,drama,66000000.0,146.0,79883359
+Tombstone,1993,R,western,25000000.0,130.0,56505065
+Cradle Will Rock,1999,R,drama,36000000.0,132.0,2899970
+The Distinguished Gentleman,1992,R,comedy,50000000.0,112.0,46434570
+The Santa Clause 3: The Escape Clause,2006,G,"comedy, family, fantasy",12000000.0,92.0,84500122
+The Recruit,2003,PG-13,thriller/suspense,46000000.0,115.0,52784696
+Finding Nemo,2003,G,"animation, family, comedy",94000000.0,100.0,380529370
+Nixon,1995,R,drama,44000000.0,192.0,13668249
+Maleficent,2014,PG,adventure,180000000.0,97.0,241407328
+Winnie the Pooh,2011,G,"animation, family, fantasy, comedy, drama, european",30000000.0,63.0,26692846
+Bubble Boy,2001,PG-13,comedy,13000000.0,84.0,5002310
+3 Ninjas,1992,PG,action,6500000.0,84.0,29028000
+Captain America: Civil War,2016,PG-13,"action, scifi",250000000.0,147.0,408084349
+Mulan,1998,G,"animation, war, drama, comedy, family, fantasy",90000000.0,88.0,120620254
+The Lone Ranger,2013,PG-13,western,215000000.0,150.0,89302115
+1492: Conquest of Paradise,1992,PG-13,adventure,47000000.0,154.0,7099531
+Finding Dory,2016,PG,"comedy, family, drama, animation",200000000.0,97.0,486295561
+The Horse Whisperer,1998,PG-13,drama,60000000.0,169.0,75383563
+The Hunchback of Notre Dame,1996,G,"animation, family, drama, romance",100000000.0,91.0,100138851
+Toy Story 3,2010,G,"comedy, animation, family, fantasy",200000000.0,103.0,415004880
+The Program,1993,R,action,15000000.0,112.0,23042200
+The Wild,2006,G,"animation, comedy, family",80000000.0,82.0,37384046
+The Chronicles of Narnia: Prince Caspian,2008,PG,"fantasy, action, family, european",225000000.0,150.0,141621490
+Powder,1995,PG-13,drama,9500000.0,111.0,30833914
+Brave,2012,PG,"comedy, fantasy, animation, family",185000000.0,93.0,237282182
+The Color of Money,1986,R,drama,13800000.0,119.0,52293000
+Eddie,1996,PG-13,comedy,30000000.0,100.0,31369401
+"Monsters, Inc.",2001,G,"animation, comedy, family, fantasy",115000000.0,92.0,289423425
+Renaissance Man,1994,PG-13,comedy,40000000.0,128.0,24172899
+The Sorcerer's Apprentice,2010,PG,"fantasy, action, family, european",150000000.0,109.0,63150991
+The Last Song,2010,PG,"romance, drama, music",20000000.0,107.0,62950384
+A Goofy Movie,1995,G,"animation, comedy, family, romance",18000000.0,78.0,35336439
+The Haunted Mansion,2003,PG,"comedy, thriller, fantasy, horror, family, drama",90000000.0,88.0,75817994
+He Got Game,1998,R,drama,25000000.0,136.0,21567853
+Confessions of a Teenage Drama Queen,2004,PG,"comedy, family, music, romance, european",15000000.0,89.0,29331068
+Evita,1996,PG,musical,55000000.0,135.0,50047179
+The Big Green,1995,PG,"action, comedy, family, sport",12000000.0,100.0,17736619
+Prefontaine,1997,PG-13,drama,8000000.0,106.0,590817
+Captain America: The Winter Soldier,2014,PG-13,"scifi, thriller, action",170000000.0,136.0,259746958
+White Fang,1991,PG,"drama, action, animation, family",14000000.0,107.0,34729091
+Mr. Holland's Opus,1995,PG,"drama, music",23000000.0,143.0,82582604
+Frankenweenie,2012,PG,scifi,39000000.0,87.0,35287788
+Dangerous Minds,1995,R,drama,23000000.0,99.0,84919401
+Reign of Fire,2002,PG-13,action,60000000.0,101.0,43061982
+The Ref,1994,R,comedy,11000000.0,96.0,11325885
